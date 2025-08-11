@@ -2,7 +2,7 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="./docinfo.ptx" />
   <article xml:id="sec-section-name" >
-    <title>In-Class Activities</title>
+    <title>Tutorials for Algebra-III</title>
     <xi:include href="./frontmatter.ptx" />
 
     <introduction>

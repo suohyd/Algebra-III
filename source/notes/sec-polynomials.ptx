@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <section xml:id="sec-polynomials">
+        <title>Polynomials</title>
+        <p> Let <m>R</m> be a ring with unity. We give definition of a polynomial in one variable with coefficients in a ring <m>R</m>. </p>
+  <definition xml:id="def-polynomial">
+    <title>Polynomial in one variable</title>
+    <statement>
+      <p>
+        A polynomial in one variable with coefficients in a ring <m>R</m> is defined as a map <m>P\colon\mathbb{Z}_{\geq 0}\to R</m> such that the image of <m>n\in\Z_{\geq 0}</m> under <m>P</m> is denoted by <m>P_n</m> and the set <m>\{n\in\mathbb{Z}_{\geq 0}:P_n\neq 0\}</m> is finite.
+        </p>
+    </statement>
+  </definition>
+  <example>
+    <statement>
+      <p>
+        Given <m>r\in R</m> we define <m>r\colon\Z_{\geq 0}\to R</m> such that <m>0\mapsto r</m> and <m>n\mapsto 0</m> for all <m>n\in\N</m>.
+      </p>
+    </statement>
+  </example>
+
+    <example>
+    <statement>
+      <p>
+        We define <m>X\colon\Z_{\geq 0}\to R</m> such that <m>1\mapsto 1</m> and <m>n\mapsto 0</m> for all <m>n\neq 1</m>.
+      </p>
+    </statement>
+  </example>
+  <definition xml:id="def-ring-of-polynomials">
+    <title>Ring of polynomials</title>
+       
+    <statement>
+      <p>
+        For two polynomials <m>P,Q</m> their addition, <m>P+Q</m> is defined as the addition of functions, i.e., <m>(P+Q)_n=P_n+Q_n</m>. Their product is defined as follows:<me>
+          (PQ)_n=\sum_{i+j=n}P_i\cdot Q_j
+        </me>
+      </p>
+      <p>
+        The set of all polynomials in one indeterminate with coefficients in a ring <m>R</m> is denoted by <m>R[X]</m>. The set <m>R[X]</m> is a ring with unity, where the unity is the polynomial <m>1\colon\Z_{\geq 0}\to R</m> such that <m>0\mapsto 1</m> and <m>n\mapsto 0</m> for all <m>n\neq 0</m>.
+      </p>
+    </statement>
+  </definition>
+  <remark>
+    <p>
+        Note that every polynomial <m>P</m> can be uniquely written as <m>P=\sum P_i\cdot X^i</m>.
+      So, from now onwards write <m>r_0+r_1X+\cdots+r_nX^n</m> for the polynomial that maps <m>i\in\Z_{\geq 0}</m> to <m>r_i</m> for <m>i=0,1,\ldots,n</m> and to <m>0</m> for <m>i \geq n+1</m>.
+    </p>
+    <p>
+      As usual, for a nonzero polynomial <m>P</m> the largest integer <m>n</m> for which the coefficient of <m>X^n</m> is not zero is called the <em>leading coefficient</em> of <m>P</m> and <m>n</m> is called the <em>degree</em> of <m>P</m>. A polynomial <m>P</m> is called a <em>monic</em> polynomial if the leading coefficient is <m>1</m>.
+    </p>
+  </remark>
+  <definition xml:id="def-polynomial-function">
+    <title>Polynomial function</title>
+    <statement>
+      <p>
+        Let <m>R</m> be a ring and let <m>P=r_0+r_1X+\cdots+r_nX^n</m> be a polynomial in <m>R[X]</m>. The polynomial function <m>P(\cdot)\colon R\to R</m> is defined as follows:
+        <me>
+          P(x)=r_0+r_1x+\cdots+r_nx^n\quad\text{ for }x\in R.
+        </me>
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="def-root-of-a-polynomial">
+    <title>Root of a polynomial</title>
+    <statement>
+      <p>
+        Keep notation as in <xref ref="def-polynomial-function"/>. An element <m>r\in R</m> is called a root of the polynomial <m>P\in R[X]</m> if <m>P(r)=0</m>.
+      </p>
+    </statement>
+  </definition>
+  <exercise>
+    <statement>
+      <p>
+        Convince yourself that the usual definition given in terms of formal sums of monomials is equivalent to the definition given above.
+      </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+      <p>
+        Convince yourself that <xref ref="def-polynomial"/> distinguishes a polynomial and a polynomial function.
+      </p>
+      <p>Indeed, let <m>R=\{r_1,r_2,\ldots,r_n\}</m> be a finite field. The polynomial <m>P=(X-r_1)(X-r_2)\cdots (X-r_n)</m> is not a zero polynomial, but the polynomial function <m>P\colon R\to R</m> is a zero function.
+      </p>
+    </statement>
+  </exercise>
+  <definition xml:id="def-ring-of-polynomials-in-several-variables">
+    <title>Ring of polynomials in several variables</title>
+    <statement>
+      <p>
+        Let <m>n\in\N</m>. The ring of polynomials in <m>n</m> variables with coefficients in a ring <m>R</m> is denoted by <m>R[X_1,\ldots,X_n]</m>. It is defined in a similar way as above <xref ref="def-ring-of-polynomials"/>.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    We state the following theorem without proof. The proof is similar to the proof of the division algorithm in field case.
+  </p>
+  <theorem xml:id="thm-euclidean-division">
+    <title>Euclidean Division</title>
+    <statement>
+      <p>
+        Let <m>A</m> be a commutative ring with unity and <m>P_1,P_2\in A[X]</m> be polynomials. If the leading coefficient of <m>P_2</m> is invertible in <m>A</m>, then there exist unique polynomials <m>Q,R\in A[X]</m> such that <m>P_1=P_2Q+R</m> and <m>\deg R &lt; \deg P_2</m>.
+      </p>
+    </statement>
+  </theorem>
+  <example>
+    <statement>
+      <p>
+        Let <m>I=\{f\in\Q[X,Y]:f(t^2,t^3)=0\text{ for }t\in\Q\}</m>. We show that <m>Y^2-X^3</m> divides <m>f\in I</m>.
+      </p>
+      <p>
+        Suppose that <m>A=\Q[X]</m>. Note that <m>\Q[X,Y]=A[Y]</m>. As <m>Y^2-X^3</m> is a monic polynomial in <m>A[Y]</m>, there exists <m>Q,R\in A[Y]</m> such that <m>f=Q(X,Y)(Y^2-X^3)+R(X,Y)</m> with <m>R=a(X)Y+b(X)</m>. Therefore, <m>a(t^2)t^3+b(t^2)=0</m> for all <m>t\in\Q</m>. As <m>\Q</m> is an infinite field, we get that <m>a(Z^2)Z^3+b(Z^2)=0\in\Q[Z]</m>. Hence, by separating the odd and the even degree terms, we get that <m>a=0=b</m>, i.e., <m>R=0</m>. Therefore, <m>(Y^2-X^3)</m> divides <m>f</m>.
+      </p>
+    </statement>
+  </example>
+  <exercise>
+    <statement>
+      <p>
+        Let <m>A</m> be a commutative ring with unity. Show that <m>a\in A</m> is a root of a polynomial <m>P\in A[X]</m> if and only if <m>(X-a)</m> divides <m>P</m>.
+      </p>
+    </statement>
+  </exercise>
+
+        </section>
+    </article>
+</pretext>

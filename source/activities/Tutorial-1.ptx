@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="worksheet">
+        <worksheet xmlns:xi="http://www.w3.org/2001/XInclude" margin="1in" bottom="1.25cm" xml:id="activity-tutorial-1">
+            <title>Tutorial-1</title>
+            <introduction>
+                <p>
+                    Following exercises are taken from the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+            </introduction>
+        
+        
+            <page>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Show that <m>p(x)=x^3-2x-2</m> is irreducible in <m>\Q[x]</m>. If <m>\theta</m> is a root of this polynomial, compute <m>(1+\theta)(1+\theta+\theta^2)</m>, and <m>(1+\theta)(1+\theta+\theta^2)^{-1}</m> in <m>\Q(\theta)</m>.
+                        </p>
+                    </statement>
+                </exercise>
+        
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Show that <m>x^3+x+1</m> is irreducible over <m>\mathbb{F}_2</m>, and let <m>\theta</m> be its root. Compute the powers of <m>\theta</m> in <m>\mathbb{F}_2(\theta)</m>. Find the degree of the field extension <m>\mathbb{F}_2(\theta)/\mathbb{F}_2</m>.
+                        </p>
+                    </statement>
+                </exercise>
+            </page>
+        
+        
+            <page>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Show that if <m>a\in\Q</m> is a root of a monic polynomial in <m>\Z[x]</m>, then <m>a\in\Z</m>.
+                        </p>
+                    </statement>
+                </exercise>
+            </page>
+
+            <page>
+                <exercise workspace="2in">
+                    <statement>
+                        <p>
+                            Show that <m>x^5-ax-1\in\Z[x]</m> is irreducible for all <m>a\in\Z\setminus\{0,-1,2\}</m>.
+                        </p>
+                    </statement>
+                </exercise>
+            </page>
+        </worksheet>
+        
+
+    </article>
+</pretext>

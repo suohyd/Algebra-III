@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Tutorial-1",
-  "body": " Tutorial-1   Following exercises are taken from the book Abstract Algebra by Dummit and Foote.      Show that is irreducible in . If is a root of this polynomial, compute , and in .      Show that is irreducible over , and let be its root. Compute the powers of in . Find the degree of the field extension .        Show that if is a root of a monic polynomial in , then .        Show that is irreducible for all .     "
+  "body": " Tutorial-1   Following exercises are taken from the book Abstract Algebra by Dummit and Foote.      Show that is irreducible in . If is a root of this polynomial, compute , and in .      Show that is irreducible over , and let be its root. Compute the powers of in . Find the degree of the field extension .      Show that if is a root of a monic polynomial in , then .      Show that is irreducible for all .     "
 },
 {
   "id": "activity-tutorial-1-3-1",
@@ -37,18 +37,18 @@ var ptx_lunr_docs = [
   "body": "  Show that is irreducible over , and let be its root. Compute the powers of in . Find the degree of the field extension .   "
 },
 {
-  "id": "activity-tutorial-1-4-1",
+  "id": "activity-tutorial-1-3-3",
   "level": "2",
-  "url": "activity-tutorial-1.html#activity-tutorial-1-4-1",
+  "url": "activity-tutorial-1.html#activity-tutorial-1-3-3",
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
   "body": "  Show that if is a root of a monic polynomial in , then .   "
 },
 {
-  "id": "activity-tutorial-1-5-1",
+  "id": "activity-tutorial-1-3-4",
   "level": "2",
-  "url": "activity-tutorial-1.html#activity-tutorial-1-5-1",
+  "url": "activity-tutorial-1.html#activity-tutorial-1-3-4",
   "type": "Worksheet Exercise",
   "number": "4",
   "title": "",

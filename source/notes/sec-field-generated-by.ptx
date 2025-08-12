@@ -46,6 +46,15 @@
             A similar argument shows the statement about <m>F(a)</m>.
         </p>
     </proof>
+    <remark>
+        <p>
+            Keep the notations of the above <xref ref="prop-field-generated-by-a-subset"/>. If the kernel of the evaluation homomorphism <m>\ker(\ev_a)\neq (0)</m> (note that <m>\ker(\ev_a)\neq F[x]</m> as ring homomorphisms maps unity to unity and that <m>F[x]</m> is not a zero ring) then, <m>F[x]/\ker(\ev_a)</m> is a field. Therefore, we ge that
+            <me>
+                F[a]=F(a).
+            </me>
+            <em>The <m>\ker(\ev_a)</m> is nonzero if and only if <m>a</m> is a root of some nonzero polynomial in <m>F[x]</m>, i.e., <m>a</m> is algebraic over <m>F</m>.</em>
+        </p>
+    </remark>
 </section>
     </article>
 </pretext>

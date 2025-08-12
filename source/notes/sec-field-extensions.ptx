@@ -38,6 +38,27 @@
           </image>
         </figure>
             </proof>
+            <example xml:id="ex-degree-of-field-extension">
+                <title>Degree of a tower of field extensions</title>
+                
+                
+                <statement>
+                    <p>
+                        Suppose that <m>\alpha=\sqrt[3]{2}\in\R</m> and <m>\beta=\omega\alpha\in\C</m>, where <m>\omega</m> is a primitive cube root of unity. Suppose that <m>K=\Q(\alpha)</m> and that <m>L=K(\beta)</m>. We show that <m>[L:\Q]=6</m>.
+                    </p>
+                    <p>
+                        First of all note that <m>\beta\not\in\R</m> and hence <m>\beta\not\in K</m>. Furthermore, <m>x^3-2</m> is the minimal polynomial of <m>\alpha</m> over <m>\Q</m> and hence <m>[K:\Q]=3</m>, and <m>\{1,\alpha,\alpha^2\}</m> is a <m>\Q</m> basis of <m>K</m>. The minimal polynomial of <m>\beta</m> over <m>K</m> is <m>x^2+\alpha x+\alpha^2</m>, which is irreducible over <m>K</m> since it has no roots in <m>K</m>. Therefore, <m>[L:K]=2</m>, and <m>\{1,\beta\}</m> is a <m>K</m> basis of <m>L</m>.
+                    </p>
+                    <p>
+                        We claim that <m>\{1,\alpha,\alpha^2,\beta,\alpha\beta,\alpha^2\beta\}</m> is a <m>\Q</m> basis of <m>L</m>. Let <m>x\in L</m>. There exists a unique <m>a_0,a_1\in K</m> such that <m>x=a_0+a_1\beta</m>. Furthermore, there exists a unique <m>b_{0i}</m> and <m>b_{1i}</m>, for <m>0\leq i\leq 2</m> such that <m>a_0=\sum_{i=0}^2b_{0i}\alpha^i</m> and <m>a_1=\sum_{i=0}^2b_{1i}\alpha^i</m>. In particular, we can write <m>x=\sum_{i=0}^2b_{0i}\alpha^i+\sum_{i=0}^2b_{1i}\alpha^i\beta</m>. This shows that <m>x</m> can be expressed as a linear combination of the elements in <m>\{1,\alpha,\alpha^2,\beta,\alpha\beta,\alpha^2\beta\}</m>. Hence, this set spans <m>L</m> over <m>\Q</m>. To show that it is linearly independent, suppose that there are <m>c_0,c_1,c_2,d_0,d_1,d_2\in\Q</m>, not all zero, such that <me>\sum_{i=0}^2 c_i\alpha^i+\sum_{i=0}^2d_i\alpha^i\beta=0.</me> As <m>\{1,\beta\}</m> is a basis of <m>L</m> over <m>K</m>, we get that 
+                        <me>
+                            \sum_{i=0}^2 c_i\alpha^i=0\in K\quad\text{ and }\quad\sum_{i=0}^2d_i\alpha^i=0\in K.
+                        </me>
+                        Using the fact that <m>\{1,\alpha,\alpha^2\}</m> is a basis of <m>K</m> over <m>\Q</m>, we get that <m>c_i=0</m> and <m>d_i=0</m> for all <m>i</m>. This shows that <m>[L:\Q]=6</m>.
+                        
+                    </p>
+                </statement>
+            </example>
         </section>
     </article>
 </pretext>

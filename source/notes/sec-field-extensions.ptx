@@ -24,17 +24,21 @@
                                 \node(F){$F$};
                                 \node(x)[right=of F]{$F[x]$};
                                 \draw[->] (F) to node [swap] {$i$} (x);
-                                \node(p)[right=of x]{$F[x]/(p)$};
+                                \node(p)[right of = x]{$F[x]/(p)$};
                                 \draw[->] (x) to node [swap] {$\pi_F$} (p);
-                                \node(a) [right=of p]{$F(\alpha)$};
+                                \node(a) [right of = p]{$F(\alpha)$};
                                 \draw[->] (p) to node [swap] {$\ev_\alpha$} (a);
-                                \node(FF){$F'$};
-                                \node(y)[right=of FF]{$F'[y]$};
+                                <!--\node(FF)[below of = F]{$F'$};
+                                \node(y)[right of = FF]{$F'[y]$};
                                 \draw[->] (FF) to node [swap] {$i'$} (y);
-                                \node(p')[right=of y]{$F'[y]/(p')$};
+                                \node(p')[right of = y, below of = x]{$F'[y]/(p')$};
                                 \draw[->] (y) to node [swap] {$\pi_{F'}$} (p');
-                                \node(b) [right=of p']{$F'(\beta)$};
+                                \node(b) [right of = p']{$F'(\beta)$};
                                 \draw[->] (p') to node [swap] {$\ev_\beta$} (b);
+                                \draw[->] (F) to node {$\sigma$} (FF);
+                                \draw[->] (x) to node {$\sigma$} (y);
+                                \draw[->] (p) to node {$\sigma$} (p');
+                                \draw[->,dashed] (a) to node {$\sigma$} (b);-->
                             \end{tikzpicture}
                         </latex-image>
                     </image>

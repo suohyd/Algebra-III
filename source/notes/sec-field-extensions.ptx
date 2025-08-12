@@ -7,7 +7,7 @@
             <theorem xml:id="thm-iso-simple-field-extensions">
                 <statement>
                     <p>
-                        Suppose that <m>\sigma\colon F\to F'</m> is an isomorphism of fields. Let <m>p\in F[x]</m> be an irreducible polynomial and let <m>p'\in F'[x]</m> be a polynomial obtained from <m>p</m> by applying <m>\sigma</m> to coefficients of <m>p</m>. If <m>\alpha</m> (resp., <m>\beta</m>) is a root of <m>p</m> (resp., <m>p'</m>) in some field extension of <m>F</m> (resp., <m>F'</m>), then there is an isomorphism <m>\widetilde{\sigma}\colon F(\alpha)\to F'(\beta)</m>.
+                        Suppose that <m>\sigma\colon F\to F'</m> is an isomorphism of fields. Let <m>p\in F[x]</m> be an irreducible polynomial and let <m>p'\in F'[x]</m> be a polynomial obtained from <m>p</m> by applying <m>\sigma</m> to coefficients of <m>p</m>. If <m>\alpha</m> (resp., <m>\beta</m>) is a root of <m>p</m> (resp., <m>p'</m>) in some field extension of <m>F</m> (resp., <m>F'</m>), then there is an isomorphism <m>\widetilde{\sigma}\colon F(\alpha)\to F'(\beta)</m> mapping <m>\alpha</m> to <m>\beta</m> and <m>\widetilde{\sigma}|_F=1_F</m>.
                     </p>
                 </statement>
             </theorem>
@@ -17,7 +17,7 @@
                 </p>
                <figure>
           <caption></caption>
-          <image width="50%">
+          <image width="70%">
           <latex-image>
             
 \begin{tikzcd}

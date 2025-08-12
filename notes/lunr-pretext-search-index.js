@@ -295,7 +295,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Field extensions",
-  "body": " Field extensions    Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism .     Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .         "
+  "body": " Field extensions    Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism mapping to and .     Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .          Degree of a tower of field extensions   Suppose that and , where is a primitive cube root of unity. Suppose that and that . We show that .  First of all note that and hence . Furthermore, is the minimal polynomial of over and hence , and is a basis of . The minimal polynomial of over is , which is irreducible over since it has no roots in . Therefore, , and is a basis of .  We claim that is a basis of . Let . There exists a unique such that . Furthermore, there exists a unique and , for such that and . In particular, we can write . This shows that can be expressed as a linear combination of the elements in . Hence, this set spans over . To show that it is linearly independent, suppose that there are , not all zero, such that As is a basis of over , we get that Using the fact that is a basis of over , we get that and for all . This shows that .    "
 },
 {
   "id": "thm-iso-simple-field-extensions",
@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "27",
   "title": "",
-  "body": "  Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism .   "
+  "body": "  Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism mapping to and .   "
 },
 {
   "id": "sec-field-extensions-3",
@@ -314,6 +314,15 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "",
   "body": " Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .        "
+},
+{
+  "id": "ex-degree-of-field-extension",
+  "level": "2",
+  "url": "sec-field-extensions.html#ex-degree-of-field-extension",
+  "type": "Example",
+  "number": "29",
+  "title": "Degree of a tower of field extensions.",
+  "body": " Degree of a tower of field extensions   Suppose that and , where is a primitive cube root of unity. Suppose that and that . We show that .  First of all note that and hence . Furthermore, is the minimal polynomial of over and hence , and is a basis of . The minimal polynomial of over is , which is irreducible over since it has no roots in . Therefore, , and is a basis of .  We claim that is a basis of . Let . There exists a unique such that . Furthermore, there exists a unique and , for such that and . In particular, we can write . This shows that can be expressed as a linear combination of the elements in . Hence, this set spans over . To show that it is linearly independent, suppose that there are , not all zero, such that As is a basis of over , we get that Using the fact that is a basis of over , we get that and for all . This shows that .   "
 }
 ]
 

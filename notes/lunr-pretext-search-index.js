@@ -294,8 +294,8 @@ var ptx_lunr_docs = [
   "url": "sec-field-extensions.html",
   "type": "Section",
   "number": "",
-  "title": "Field-extensions",
-  "body": " Field-extensions    Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism .     Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .         "
+  "title": "Field extensions",
+  "body": " Field extensions    Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism .     Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .         "
 },
 {
   "id": "thm-iso-simple-field-extensions",

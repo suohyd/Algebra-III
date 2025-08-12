@@ -15,7 +15,19 @@
                 <p>
                     Note that <m>p'</m> is also irreducible. Indeed, <m>\sigma</m> induces an isomorphism of rings <m>F[x]\simeq F'[x]</m> by defining <m>\sum a_ix^i\mapsto\sum\sigma(a_i)x^i</m>. We have the following commutative diagram.
                 </p>
-               
+               <figure xml:id="fig-iso-simple-field-extensions">
+                        <caption>a</caption>
+                        <image width="50%">
+                            <shortdescription>a</shortdescription>
+                            \begin{tikzcd}
+V \arrow[r] \arrow[rdd] \amp FAI(V) \arrow[dd, dotted] \\
+ \amp  \\
+ \amp CL(V,q)
+\end{tikzcd}
+                        </image>
+                        <latex-image>
+                        </latex-image>
+                    </figure>
             </proof>
         </section>
     </article>

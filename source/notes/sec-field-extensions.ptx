@@ -3,7 +3,7 @@
 <pretext>
     <article xml:id="notes">
         <section xml:id="sec-field-extensions" xmlns:xi="http://www.w3.org/2001/XInclude">
-            <title>Field-extensions</title>
+            <title>Field extensions</title>
             <theorem xml:id="thm-iso-simple-field-extensions">
                 <statement>
                     <p>

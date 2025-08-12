@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <section xml:id="sec-field-extensions" xmlns:xi="http://www.w3.org/2001/XInclude">
+            <title>Field-extensions</title>
+            <theorem xml:id="thm-iso-simple-field-extensions">
+                <statement>
+                    <p>
+                        Suppose that <m>\sigma\colon F\to F'</m> is an isomorphism of fields. Let <m>p\in F[x]</m> be an irreducible polynomial and let <m>p'\in F'[x]</m> be a polynomial obtained from <m>p</m> by applying <m>\sigma</m> to coefficients of <m>p</m>. If <m>\alpha</m> (resp., <m>\beta</m>) is a root of <m>p</m> (resp., <m>p'</m>) in some field extension of <m>F</m> (resp., <m>F'</m>), then there is an isomorphism <m>\widetilde{\sigma}\colon F(\alpha)\to F'(\beta)</m>.
+                    </p>
+                </statement>
+            </theorem>
+            <proof>
+                <p>
+                    Note that <m>p'</m> is also irreducible. Indeed, <m>\sigma</m> induces an isomorphism of rings <m>F[x]\simeq F'[x]</m> by defining <m>\sum a_ix^i\mapsto\sum\sigma(a_i)x^i</m>. We have the following commutative diagram.
+                </p>
+                <p>
+                    <figure xml:id="fig-iso-simple-field-extensions">
+                        <caption></caption>
+                        <latex-image>
+                            \begin{tikzcd}
+                                \bullet \amp \bullet \amp \bullet \amp \bullet \\
+	\bullet \amp \bullet \amp \bullet \amp \bullet
+	\arrow["i", from=1-1, to=1-2]
+	\arrow[from=1-1, to=2-1]
+	\arrow["{\pi_F}", from=1-2, to=1-3]
+	\arrow[from=1-2, to=2-2]
+	\arrow[from=1-3, to=1-4]
+	\arrow[from=1-3, to=2-3]
+	\arrow[dashed, from=1-4, to=2-4]
+	\arrow["{i'}", from=2-1, to=2-2]
+	\arrow["{\pi_{F'}}", from=2-2, to=2-3]
+	\arrow[from=2-3, to=2-4]
+                            \end{tikzcd}
+                        </latex-image>
+                    </figure>
+                </p>
+            </proof>
+        </section>
+    </article>
+</pretext>

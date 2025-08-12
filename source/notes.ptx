@@ -15,6 +15,7 @@
     <xi:include href="./notes/sec-prime-subfield.ptx" xpointer="notes/1" />
     <xi:include href="./notes/sec-F-algebra.ptx" xpointer="notes/1" />
     <xi:include href="./notes/sec-field-generated-by.ptx" xpointer="notes/1" />
+    <xi:include href="./notes/sec-field-extensions.ptx" xpointer="notes/1" />
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>

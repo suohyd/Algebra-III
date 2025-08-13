@@ -10,11 +10,12 @@
         These activities are designed to be used in class to help students understand the material. They are not graded, but students are encouraged to work on them in groups and ask the instructor for help when needed. All exercises are taken from the book <em>Abstract Algebra</em> by Dummit and Foote.
       </p>
     </introduction>
-    <!--<xi:include href="./activities/wkst-relns-digramphs.ptx"/>
-    <xi:include href="./activities/wkst-eqrel-counting.ptx"/>-->
+    <!--<xi:include href="./activities/wkst-relns-digramphs.ptx" />-->
+    <xi:include href="./activities/Tutorial-1.ptx" xpointer="activity-tutorial-1" />
+    <xi:include href="./activities/Tutorial-2.ptx" xpointer="activity-tutorial-2"/>
     
     <!-- The xpointer="activity-magic-beans" says to only include the element with id "activity-magic-beans".  This is how we can have a standalone file and also include it here -->
-    <xi:include href="./activities/Tutorial-1.ptx" xpointer="activity-tutorial-1" />
+    
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-2">
+  <title>Tutorial-2</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Section 13.2 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+  <page>
+
+    <exercise>
+      <statement>
+        <p>
+          Let <m>\F</m> be a finite field of characteristic <m>p</m>. Show that the number of elements in <m>\F</m> is <m>p^n</m> for some natural number <m>n</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Suppose that <m>g(x)=x^2+x+1</m> and <m>h(x)=x^3-x+1</m>. Obtain fields of cardinality <m>4,8,9</m> and <m>27</m> by adjoining roots of either <m>g(x)</m> or <m>h(x)</m> to <m>\F_2</m> or <m>\F_3</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find the minimal polynomial of <m>1+i\in\C</m> over <m>\Q</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Determine the following degrees.
+          <me>
+            \left[\Q(2+\sqrt{3}):\Q\right],\quad\left[\Q\left(\sqrt{3+2\sqrt{2}}\right):\Q\right],\quad\text{and}\quad\left[\Q\left(1+\sqrt[3]{2}+\sqrt[3]{4}\right):\Q\right]
+          </me>
+          
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Show that <m>x^3-2</m> and <m>x^3-3</m> are irreducible over <m>\Q(i)</m>.
+        </p>
+      </statement>
+    </exercise>
+  </page>
+</worksheet>

@@ -13,6 +13,8 @@
     <!--<xi:include href="./activities/wkst-relns-digramphs.ptx" />-->
     <xi:include href="./activities/Tutorial-1.ptx" xpointer="activity-tutorial-1" />
     <xi:include href="./activities/Tutorial-2.ptx" xpointer="activity-tutorial-2"/>
+    <xi:include href="./activities/Tutorial-3.ptx" xpointer="activity-tutorial-3"/>
+    
     
     <!-- The xpointer="activity-magic-beans" says to only include the element with id "activity-magic-beans".  This is how we can have a standalone file and also include it here -->
     

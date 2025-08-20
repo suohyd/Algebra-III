@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-3">
+  <title>Tutorial-3</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Section 13.2 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                a
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-4">
+  <title>Tutorial-4</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Sections 13.3 and 13.4 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                Show that it is impossible to construct a regular <m>9</m>-gon with straightedge and compass.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Use the fact that <m>\alpha=2\cos(2\pi/5)</m> satisfies the equation <m>x^2+x-1=0</m> to construct a regular pentagon with straightedge and compass.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Determine the splittting field and degree over <m>\Q</m> of the following polynomials.
+                <me>
+                    x^4-2;\quad x^4+2;\quad x^4+x^2+1;\quad\text{and}\quad x^6-4
+                </me>    
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>K/F</m> be a finite field extension. Show that <m>K</m> is a splitting field over <m>F</m> if and only if every irreducible polynomial in <m>F[x]</m> that has a root in <m>K</m> splits completely in <m>K[x]</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>K_1,K_2</m> be finite extensions of a field <m>F</m> contained in a field <m>K</m>. Furthermore, assume that <m>K_1,K_2</m> are splitting fields over <m>F</m>. Show that <m>K_1K_2</m> and <m>K_1\cap K_2</m> are splitting fields over <m>F</m>.
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>

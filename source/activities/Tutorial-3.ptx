@@ -11,9 +11,125 @@
     <exercise>
         <statement>
             <p>
-                a
+                Show that the field <m>F\left(a_1,\ldots,a_n\right)</m> is the compositum of fields <m>F(a_i)</m>.
             </p>
         </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Show that <m>\Q\left(\sqrt{2},\sqrt{3}\right)=\Q\left(\sqrt{2}+\sqrt{3}\right)</m>. Find the minimal polynomial of <m>\sqrt{2}+\sqrt{3}</m> over <m>\Q</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Let <m>{\rm char}(F)\neq 0</m>. Let <m>D_1,D_2\in F\setminus F^2</m>. Show the following.
+		      <me>\left[F\left(\sqrt{D_1},\sqrt{D_2}\right):F\right]=\begin{cases}
+			        4\amp\text{if }D_1D_2\not\in F^2\\
+			        2\amp\text{otherwise}
+		          \end{cases}</me>
+		          When <m>\left[F\left(\sqrt{D_1},\sqrt{D_2}\right):F\right]=4</m> the field extension <m>F\left(\sqrt{D_1},\sqrt{D_2}\right)/F</m> is called a <em>biquadratic extension</em>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Let <m>{\rm char}(F)\neq 2</m>. Suppose that <m>a,b\in F</m> and that <m>b\not\in F^2</m>. Show that <m>\sqrt{a+\sqrt{b}}=\sqrt{m}+\sqrt{n}</m> for some <m>m,n\in F</m> if and only if <m>a^2-b\in F^2</m>. Use this to determine when the field extension <m>\Q\left(\sqrt{a+\sqrt{b}}\right)\big/\Q</m> has degree <m>4</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Suppose that <m>K=\Q(a_1,\ldots,a_n)</m> is such that <m>a_i^2\in\Q</m> for <m>i=1,\ldots,n</m>. Show that the real cube root of <m>2</m> does not belong to <m>F</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          If <m>\left[F(a):F\right]</m> is odd then, <m>F(a)=F\left(a^2\right)</m>.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Let <m>k</m> be a field and let <m>k(x)</m> be the field of rational functions in one variable over <m>k</m>. Let <m>t=P(x)/Q(x)</m>, where <m>P(x),Q(x)\in k[x]</m>, <m>Q(x)\neq 0</m>, and <m>(P,Q)=1</m>. Assume that <m>t\not\in k</m>. Compute <m>[k(x):k(t)]</m> using the following steps.
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Show that <m>R(s)= P(s)-tQ(s)\in k(t)[s]</m> is irreducible over <m>k(t)</m> and that <m>x</m> is a root of <m>R(s)</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Show that <m>\deg_s R(s)=\max\{\deg_xP(x),\deg_xQ(x)\}</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Show that <m>[k(x):k(t)]=\max\{\deg_xP(x),\deg_xQ(x)\}</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Let <m>K/F</m> be a field extension of degree <m>n</m>. Let <m>\alpha\in K</m>.
+        </p>
+        <p>
+          <ol>
+            <li>
+              <p>
+                Show that the following map is <m>F</m>-linear. <me>\ell_\alpha\colon K\to K\quad\text{given by}\quad x\mapsto\alpha x</me>
+              </p>
+            </li>
+            <li>
+              <p>
+                Suppose that <m>A\in M_n(F)</m> be a matrix of the linear map <m>\ell_\alpha</m>. Show that <m>\alpha</m> is a root of the characteristic polynomial of <m>A</m>. <em>This gives a procedure to determine a polynomial of degree <m>n</m> satisfying an element <m>\alpha</m> in an extension of degree <m>n</m> over <m>F</m></em>
+              </p>
+            </li>
+            <li>
+              <p>
+                Using the procedure outlined in the above two sub-questions, find a monic polynomial of degree <m>3</m> satisfied by <m>\sqrt[3]{2}</m> (resp. <m>1+\sqrt[3]{2}+\sqrt[3]{4}</m>).
+              </p>
+            </li>
+            <li>
+              <p>
+                Show that <m>K</m> is isomorphic to a subfield of <m>M_n(F)</m>. So the ring <m>M_n(F)</m> contains an isomorphic copy of every field extension of <m>F</m> of degree at most <m>n</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Let <m>D\in\Q\setminus\Q^2</m> and let <m>K=\Q\left(\sqrt{D}\right)</m>. Let <m>\alpha=a+b\sqrt{D}\in K</m>.
+              </p>
+              <p>
+                <ol>
+                  <li>
+                    <p>
+                      Show that the matrix of <m>\ell_\alpha</m> with respect to the basis <m>\{1,\sqrt{D}\}</m> is the following. <me>\begin{pmatrix} a\amp b D\\b\amp a \end{pmatrix}</me>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Prove directly that the following is an isomorphism of <m>K</m> with a subfield of <m>M_2(\Q)</m>. <me>a+b\sqrt{D}\mapsto\begin{pmatrix} a\amp bD\\b\amp a\end{pmatrix}</me>
+                    </p>
+                  </li>
+                </ol>
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
     </exercise>
   </page>
 </worksheet>

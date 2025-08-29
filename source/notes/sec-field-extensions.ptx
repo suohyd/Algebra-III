@@ -59,6 +59,37 @@
                     </p>
                 </statement>
             </example>
+            <proposition xml:id="prop-embedding-into-algebraic-closure">
+                <statement>
+                    <p>
+                        Let <m>F</m> be a field and let <m>\overline{F}</m> be an algebraic closure of <m>F</m>. If <m>K/F</m> is an algebraic field extension, then there exists an embedding <m>K\hookrightarrow\overline{F}</m> which is the identity on <m>F</m>.
+                    </p>
+                </statement>
+            </proposition>
+            <proof>
+                <p>
+                    Let <m>S=\{(E,i_E):F\subseteq E\subseteq K\text{ and }i_E\colon E\hookrightarrow\overline{F}\text{ which is identity on }F\}</m>. This is a nonempty set as <m>(F,i_F)\in S</m>, where <m>i_F\colon F\hookrightarrow\overline{F}</m> is the inclusion map. We define a partial order on <m>S</m> by setting <m>(E,i_E)\leq (E',i_{E'})</m> if <m>E\subseteq E'</m> and <m>i_{E'}|_E=i_E</m>. Suppose that <m>(E_i,i_{E_i})_{i\in I}</m> is a chain in <m>S</m>. Then, <m>E=\cup E_i</m> is a field and we define <m>i_E(x)=i_{E_k}(x)</m> if <m>x\in E_k</m>. One may verify that <m>i_E</m> is a well-defined embedding which is identity on <m>F</m>. So, we can apply Zorn's lemma to get a maximal element <m>(M,i_M)\in S</m>. We claim that <m>M=K</m>. Indeed, if <m>x\in K</m> then, <m>x</m> is algebraic over <m>M</m>. Let <m>m_{x,M}</m> be the minimal polynomial of <m>x</m> over <m>M</m>. By using <m>i_M\colon M\hookrightarrow\overline{F}</m>, we may take <m>\overline{F}</m> as an algebraic closure of <m>M</m>. Suppose that <m>\alpha\in\overline{F}</m> is a root of <m>m_{x,M}</m>. Hence, there is an embedding <m>M[t]/(m_{x,M})\hookrightarrow\overline{F}</m> extending <m>i_M</m>. Since, <m>M(x)\simeq M[t]/(m_{x,M})</m>, we get an embedding <m>i_{M(x)}\colon M(x)\hookrightarrow\overline{F}</m>. By the maximality of <m>M</m> we conclude that <m>M(x)=M</m>. As <m>x\in K</m> was arbitrary, we get that <m>M=K</m>.
+                </p>
+            </proof>
+            <theorem xml:id="thm-uniqueness-of-algebraic-closure">
+                <statement>
+                    <p>
+                        Let <m>F</m> be a field and let <m>\overline{F_1}</m> and <m>\overline{F_2}</m> be two algebraic closures of <m>F</m>. Then, there exists an isomorphism <m>i\colon\overline{F_1}\to\overline{F_2}</m> such that <m>i|_F=\text{id}_F</m>.
+                    </p>
+                </statement>
+            </theorem>
+            <proof>
+                <p>
+                    We apply <xref ref="prop-embedding-into-algebraic-closure"/> with <m>K=\overline{F_1}</m>, to get an embedding <m>i\colon\overline{F_1}\hookrightarrow\overline{F_2}</m> which is the identity on <m>F</m>. By the isomorphism theorem <m>i(\overline{F_1})\simeq \overline{F_1}</m>, and hence <m>i(\overline{F_1})</m> is algebraically closed. However, <m>\overline{F_2}/i(\overline{F_1})</m> is an algebraic extension. This shows that <m>i(\overline{F_1})=\overline{F_2}</m>, and hence <m>i\colon\overline{F_1}\to\overline{F_2}</m> is a required isomorphism. 
+                </p>
+            </proof>
+            <exercise>
+                <statement>
+                    <p>
+                        Let <m>E/K</m> be an algebraic field extension and let <m>K</m> be algebraically closed field. Show that <m>E=K</m>.
+                    </p>
+                </statement>
+            </exercise>
         </section>
-    </article>
+    </article> 
 </pretext>

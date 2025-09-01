@@ -72,6 +72,9 @@
                 </p>
             </proof>
             <theorem xml:id="thm-uniqueness-of-algebraic-closure">
+                <title>Uniqueness of algebraic closure</title>
+                
+                
                 <statement>
                     <p>
                         Let <m>F</m> be a field and let <m>\overline{F_1}</m> and <m>\overline{F_2}</m> be two algebraic closures of <m>F</m>. Then, there exists an isomorphism <m>i\colon\overline{F_1}\to\overline{F_2}</m> such that <m>i|_F=\text{id}_F</m>.

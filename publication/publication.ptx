@@ -96,7 +96,7 @@
       <!--<page right-alignment="flush" bottom-alignment="ragged" crop-marks="letter"/>-->
 
     <!-- Add content to \geometry{}: -->
-      <geometry>a4paper,total={16cm,25cm}</geometry>
+    <!---  <geometry></geometry>-->
 
     <!-- The asymptote/@links set to "yes" would produce  -->
     <!-- links the html version of asymptote graphics.    -->

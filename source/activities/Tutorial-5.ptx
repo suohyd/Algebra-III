@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-5">
+  <title>Tutorial-5</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Section 13.5 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                Find all irreducible polynomials of degree 1, 2 and 4 over <m>\F_2</m>, and show that their product is <m>x^{16}-x</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet><>

@@ -18,9 +18,30 @@
     <exercise>
         <statement>
             <p>
-                
+                Show that <m>d</m> divides <m>n</m> if and only if <m>x^d - 1</m> divides <m>x^n - 1</m>. Further show that <m>\F_{p^d}\subseteq\F_{p^n}</m> if and only if <m>d</m> divides <m>n</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>p</m> be a prime and let <m>0\neq a\in\F_p</m>. Show that <m>x^p - x + a</m> is irreducible and separable over <m>\F_p</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Suppose that <m>K</m> is a field and that it is not a perfect field. Prove that there exist irreducible inseparable polynomials over <m>K</m>. Conclude that there exist inseparable finite extensions of <m>K</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>K/F</m> be  field extension, and let <m>F</m> be a perfect field. Suppose that <m>f(x)\in F[x]</m> has no repeated irreducible factors in <m>F[x]</m>. Show that <m>f(x)</m> has no repeated irreducible factors in <m>K[x]</m>.
             </p>
         </statement>
     </exercise>
   </page>
-</worksheet><>
+</worksheet>

@@ -242,6 +242,60 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "  Let be finite extensions of a field contained in a field . Furthermore, assume that are splitting fields over . Show that and are splitting fields over .   "
+},
+{
+  "id": "activity-tutorial-5",
+  "level": "1",
+  "url": "activity-tutorial-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Tutorial-5",
+  "body": " Tutorial-5   Following exercises are taken from Section 13.5 of the book Abstract Algebra by Dummit and Foote.      Find all irreducible polynomials of degree 1, 2 and 4 over , and show that their product is .      Show that divides if and only if divides . Further show that if and only if divides .      Let be a prime and let . Show that is irreducible and separable over .      Suppose that is a field and that it is not a perfect field. Prove that there exist irreducible inseparable polynomials over . Conclude that there exist inseparable finite extensions of .      Let be field extension, and let be a perfect field. Suppose that has no repeated irreducible factors in . Show that has no repeated irreducible factors in .     "
+},
+{
+  "id": "activity-tutorial-5-3-1",
+  "level": "2",
+  "url": "activity-tutorial-5.html#activity-tutorial-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find all irreducible polynomials of degree 1, 2 and 4 over , and show that their product is .   "
+},
+{
+  "id": "activity-tutorial-5-3-2",
+  "level": "2",
+  "url": "activity-tutorial-5.html#activity-tutorial-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Show that divides if and only if divides . Further show that if and only if divides .   "
+},
+{
+  "id": "activity-tutorial-5-3-3",
+  "level": "2",
+  "url": "activity-tutorial-5.html#activity-tutorial-5-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let be a prime and let . Show that is irreducible and separable over .   "
+},
+{
+  "id": "activity-tutorial-5-3-4",
+  "level": "2",
+  "url": "activity-tutorial-5.html#activity-tutorial-5-3-4",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Suppose that is a field and that it is not a perfect field. Prove that there exist irreducible inseparable polynomials over . Conclude that there exist inseparable finite extensions of .   "
+},
+{
+  "id": "activity-tutorial-5-3-5",
+  "level": "2",
+  "url": "activity-tutorial-5.html#activity-tutorial-5-3-5",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let be field extension, and let be a perfect field. Suppose that has no repeated irreducible factors in . Show that has no repeated irreducible factors in .   "
 }
 ]
 

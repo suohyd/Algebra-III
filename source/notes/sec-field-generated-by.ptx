@@ -52,7 +52,7 @@
             <me>
                 F[a]=F(a).
             </me>
-            <em>The <m>\ker(\ev_a)</m> is nonzero if and only if <m>a</m> is a root of some nonzero polynomial in <m>F[x]</m>, i.e., <m>a</m> is algebraic over <m>F</m>.</em>
+            <em>The <m>\ker(\ev_a)</m> is nonzero (resp. zero) if and only if <m>a</m> is a root of some nonzero polynomial in <m>F[x]</m>, i.e., <m>a</m> is algebraic (resp., transcendental) over <m>F</m>.</em>
         </p>
     </remark>
 </section>

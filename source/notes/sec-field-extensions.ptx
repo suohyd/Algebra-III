@@ -72,14 +72,14 @@
                 </p>
             </proof>
                         <proposition xml:id="prop-homomorphism-extension">
-                <title>Homomorphism extension</title>
+                <title>Extension of homomorphism</title>
                <statement>
                     <p>
                         Suppose that <m>F</m> is a field and that <m>\overline{F}</m> is an algebraic closure of <m>F</m>. If <m>K/F</m> is an algebraic field extension and an embedding <m>i_K\colon K\hookrightarrow\overline{F}</m> which is the identity on <m>F</m>. If <m>L/K</m> is an algebraic field extension, then there exists an embedding <m>i_L\colon L\hookrightarrow\overline{F}</m> which extends <m>i_K</m> and is the identity on <m>F</m>.
                     </p>
                     Pictorially, we have the following commutative diagram.
                     <figure xml:id="fig-homomorphism-extension">
-                        <caption>Homomorphism extension</caption>
+                        <caption>Extension of homomorphism</caption>
                         <image width="30%">
                             <latex-image>
                                 \begin{tikzcd}

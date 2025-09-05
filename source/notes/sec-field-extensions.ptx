@@ -68,7 +68,41 @@
             </proposition>
             <proof>
                 <p>
-                    Let <m>S=\{(E,i_E):F\subseteq E\subseteq K\text{ and }i_E\colon E\hookrightarrow\overline{F}\text{ which is identity on }F\}</m>. This is a nonempty set as <m>(F,i_F)\in S</m>, where <m>i_F\colon F\hookrightarrow\overline{F}</m> is the inclusion map. We define a partial order on <m>S</m> by setting <m>(E,i_E)\leq (E',i_{E'})</m> if <m>E\subseteq E'</m> and <m>i_{E'}|_E=i_E</m>. Suppose that <m>(E_i,i_{E_i})_{i\in I}</m> is a chain in <m>S</m>. Then, <m>E=\cup E_i</m> is a field and we define <m>i_E(x)=i_{E_k}(x)</m> if <m>x\in E_k</m>. One may verify that <m>i_E</m> is a well-defined embedding which is identity on <m>F</m>. So, we can apply Zorn's lemma to get a maximal element <m>(M,i_M)\in S</m>. We claim that <m>M=K</m>. Indeed, if <m>x\in K</m> then, <m>x</m> is algebraic over <m>M</m>. Let <m>m_{x,M}</m> be the minimal polynomial of <m>x</m> over <m>M</m>. By using <m>i_M\colon M\hookrightarrow\overline{F}</m>, we may take <m>\overline{F}</m> as an algebraic closure of <m>M</m>. Suppose that <m>\alpha\in\overline{F}</m> is a root of <m>m_{x,M}</m>. Hence, there is an embedding <m>M[t]/(m_{x,M})\hookrightarrow\overline{F}</m> extending <m>i_M</m>. Since, <m>M(x)\simeq M[t]/(m_{x,M})</m>, we get an embedding <m>i_{M(x)}\colon M(x)\hookrightarrow\overline{F}</m>. By the maximality of <m>M</m> we conclude that <m>M(x)=M</m>. As <m>x\in K</m> was arbitrary, we get that <m>M=K</m>.
+                    Consider the following set. <me>S=\{(E,i_E):F\subseteq E\subseteq K\text{ and }i_E\colon E\hookrightarrow\overline{F}\text{ which is identity on }F\}</me>. This is a nonempty set as <m>(F,i_F)\in S</m>, where <m>i_F\colon F\hookrightarrow\overline{F}</m> is the inclusion map. We define a partial order on <m>S</m> by setting <m>(E,i_E)\leq (E',i_{E'})</m> if <m>E\subseteq E'</m> and <m>i_{E'}|_E=i_E</m>. Suppose that <m>(E_i,i_{E_i})_{i\in I}</m> is a chain in <m>S</m>. Then, <m>E=\cup E_i</m> is a field and we define <m>i_E(x)=i_{E_k}(x)</m> if <m>x\in E_k</m>. One may verify that <m>i_E</m> is a well-defined embedding which is identity on <m>F</m>. So, we can apply Zorn's lemma to get a maximal element <m>(M,i_M)\in S</m>. We claim that <m>M=K</m>. Indeed, if <m>x\in K</m> then, <m>x</m> is algebraic over <m>M</m>. Let <m>m_{x,M}</m> be the minimal polynomial of <m>x</m> over <m>M</m>. By using <m>i_M\colon M\hookrightarrow\overline{F}</m>, we may take <m>\overline{F}</m> as an algebraic closure of <m>M</m>. Suppose that <m>\alpha\in\overline{F}</m> is a root of <m>m_{x,M}</m>. Hence, there is an embedding <m>M[t]/(m_{x,M})\hookrightarrow\overline{F}</m> extending <m>i_M</m>. Since, <m>M(x)\simeq M[t]/(m_{x,M})</m>, we get an embedding <m>i_{M(x)}\colon M(x)\hookrightarrow\overline{F}</m>. By the maximality of <m>M</m> we conclude that <m>M(x)=M</m>. As <m>x\in K</m> was arbitrary, we get that <m>M=K</m>.
+                </p>
+            </proof>
+                        <proposition xml:id="prop-homomorphism-extension">
+                <title>Homomorphism extension</title>
+               <statement>
+                    <p>
+                        Suppose that <m>F</m> is a field and that <m>\overline{F}</m> is an algebraic closure of <m>F</m>. If <m>K/F</m> is an algebraic field extension and an embedding <m>i_K\colon K\hookrightarrow\overline{F}</m> which is the identity on <m>F</m>. If <m>L/K</m> is an algebraic field extension, then there exists an embedding <m>i_L\colon L\hookrightarrow\overline{F}</m> which extends <m>i_K</m> and is the identity on <m>F</m>.
+                    </p>
+                    Pictorially, we have the following commutative diagram.
+                    <figure xml:id="fig-homomorphism-extension">
+                        <caption>Homomorphism extension</caption>
+                        <image width="30%">
+                            <latex-image>
+                                \begin{tikzcd}
+	                                L \amp\amp {\overline{F}} \\
+	                                K \amp\amp {\overline{F}} \\
+	                                F \amp\amp F
+	                                \arrow["{i_L}"{description}, dashed, hook, from=1-1, to=1-3]
+	                                \arrow[no head, from=1-1, to=2-1]
+	                                \arrow[equals, from=1-3, to=2-3]
+	                                \arrow["{i_K}"{description}, hook, from=2-1, to=2-3]
+	                                \arrow[no head, from=2-1, to=3-1]
+	                                \arrow[no head, from=2-3, to=3-3]
+	                                \arrow[equals, from=3-1, to=3-3]
+                                \end{tikzcd}
+                            </latex-image>
+                            
+                        </image>
+                    </figure>
+                </statement>
+            </proposition>
+            <proof>
+                <p>
+                    The embedding <m>i_K\colon K\to\overline{F}</m> makes <m>\overline{F}</m> an algebraic closure of <m>K</m>. Therefore, we can apply <xref ref="prop-embedding-into-algebraic-closure"/> with <m>F</m> replaced by <m>K</m> to get an embedding <m>i_L\colon L\hookrightarrow\overline{F}</m> which is the identity on <m>K</m>. In particular, it is the identity on <m>F</m>.
                 </p>
             </proof>
             <theorem xml:id="thm-uniqueness-of-algebraic-closure">

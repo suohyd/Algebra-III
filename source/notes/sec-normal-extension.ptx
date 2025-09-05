@@ -48,6 +48,9 @@
                 <p>
                     Now assume that every <m>F</m>-embedding of <m>E\hookrightarrow\overline{F}</m> is an automorphism of <m>E</m>. Let <m>f\in F[x]</m> be an irreducible polynomial with a root <m>a\in E</m>. For any other root <m>b\in\overline{F}</m> there is an isomomorphism <m>\sigma_b\colon F(a)\to F(b)</m> given by <m>a\mapsto b</m> and <m>\alpha\mapsto\alpha</m> for all <m>\alpha\in F</m>. By the extension theorem for field homomorphisms, <m>\sigma_b</m> extends to an <m>F</m>-embedding <m>\sigma\colon E\hookrightarrow\overline{F}</m>. By our assumption, <m>\sigma</m> is an automorphism of <m>E</m>. Therefore, <m>b=\sigma(a)\in E</m>. Thus, every root of <m>f</m> lies in <m>E</m>.
                 </p>
+                <p>
+                    Now assume that every irreducible polynomial in <m>F[x]</m> that has at least one root in <m>E</m> completely splits in <m>E[x]</m>. Let <m>\{f_i\}\subseteq F[x]</m> be the set of all irreducible polynomials that have at least one root in <m>E</m>. Then, by our assumption, each <m>f_i</m> completely splits in <m>E[x]</m>. Therefore, <m>E</m> is the splitting field of <m>\{f_i\}</m>.
+                </p>
             </proof>
         </section>
     </article>

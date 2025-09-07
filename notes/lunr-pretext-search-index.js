@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Field extensions",
-  "body": " Field extensions    Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism mapping to and .     Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .          Degree of a tower of field extensions   Suppose that and , where is a primitive cube root of unity. Suppose that and that . We show that .  First of all note that and hence . Furthermore, is the minimal polynomial of over and hence , and is a basis of . The minimal polynomial of over is , which is irreducible over since it has no roots in . Therefore, , and is a basis of .  We claim that is a basis of . Let . There exists a unique such that . Furthermore, there exists a unique and , for such that and . In particular, we can write . This shows that can be expressed as a linear combination of the elements in . Hence, this set spans over . To show that it is linearly independent, suppose that there are such that As is a basis of over , we get that Using the fact that is a basis of over , we get that and for all . This shows that .      Let be a field and let be an algebraic closure of . If is an algebraic field extension, then there exists an embedding which is the identity on .     Let . This is a nonempty set as , where is the inclusion map. We define a partial order on by setting if and . Suppose that is a chain in . Then, is a field and we define if . One may verify that is a well-defined embedding which is identity on . So, we can apply Zorn's lemma to get a maximal element . We claim that . Indeed, if then, is algebraic over . Let be the minimal polynomial of over . By using , we may take as an algebraic closure of . Suppose that is a root of . Hence, there is an embedding extending . Since, , we get an embedding . By the maximality of we conclude that . As was arbitrary, we get that .    Uniqueness of algebraic closure   Let be a field and let and be two algebraic closures of . Then, there exists an isomorphism such that .     We apply with , to get an embedding which is the identity on . By the isomorphism theorem , and hence is algebraically closed. However, is an algebraic extension. This shows that , and hence is a required isomorphism.     Let be an algebraic field extension and let be algebraically closed field. Show that .    "
+  "body": " Field extensions    Suppose that is an isomorphism of fields. Let be an irreducible polynomial and let be a polynomial obtained from by applying to coefficients of . If (resp., ) is a root of (resp., ) in some field extension of (resp., ), then there is an isomorphism mapping to and .     Note that is also irreducible. Indeed, induces an isomorphism of rings by defining . Furthermore, this isomorphism induces an isomorphism of given by . In the following diagram, we can consider the isomorphism .          Degree of a tower of field extensions   Suppose that and , where is a primitive cube root of unity. Suppose that and that . We show that .  First of all note that and hence . Furthermore, is the minimal polynomial of over and hence , and is a basis of . The minimal polynomial of over is , which is irreducible over since it has no roots in . Therefore, , and is a basis of .  We claim that is a basis of . Let . There exists a unique such that . Furthermore, there exists a unique and , for such that and . In particular, we can write . This shows that can be expressed as a linear combination of the elements in . Hence, this set spans over . To show that it is linearly independent, suppose that there are such that As is a basis of over , we get that Using the fact that is a basis of over , we get that and for all . This shows that .      Let be a field and let be an algebraic closure of . If is an algebraic field extension, then there exists an embedding which is the identity on .     Consider the following set. . This is a nonempty set as , where is the inclusion map. We define a partial order on by setting if and . Suppose that is a chain in . Then, is a field and we define if . One may verify that is a well-defined embedding which is identity on . So, we can apply Zorn's lemma to get a maximal element . We claim that . Indeed, if then, is algebraic over . Let be the minimal polynomial of over . By using , we may take as an algebraic closure of . Suppose that is a root of . Hence, there is an embedding extending . Since, , we get an embedding . By the maximality of we conclude that . As was arbitrary, we get that .    Extension of homomorphism   Suppose that is a field and that is an algebraic closure of . If is an algebraic field extension and an embedding which is the identity on . If is an algebraic field extension, then there exists an embedding which extends and is the identity on . Pictorially, we have the following commutative diagram.  Extension of homomorphism         The embedding makes an algebraic closure of . Therefore, we can apply with replaced by to get an embedding which is the identity on . In particular, it is the identity on .    Uniqueness of algebraic closure   Let be a field and let and be two algebraic closures of . Then, there exists an isomorphism such that .     We apply with , to get an embedding which is the identity on . By the isomorphism theorem , and hence is algebraically closed. However, is an algebraic extension. This shows that , and hence is a required isomorphism.     Let be an algebraic field extension and let be algebraically closed field. Show that .    "
 },
 {
   "id": "thm-iso-simple-field-extensions",
@@ -349,16 +349,16 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "2",
   "title": "",
-  "body": " Let . This is a nonempty set as , where is the inclusion map. We define a partial order on by setting if and . Suppose that is a chain in . Then, is a field and we define if . One may verify that is a well-defined embedding which is identity on . So, we can apply Zorn's lemma to get a maximal element . We claim that . Indeed, if then, is algebraic over . Let be the minimal polynomial of over . By using , we may take as an algebraic closure of . Suppose that is a root of . Hence, there is an embedding extending . Since, , we get an embedding . By the maximality of we conclude that . As was arbitrary, we get that .  "
+  "body": " Consider the following set. . This is a nonempty set as , where is the inclusion map. We define a partial order on by setting if and . Suppose that is a chain in . Then, is a field and we define if . One may verify that is a well-defined embedding which is identity on . So, we can apply Zorn's lemma to get a maximal element . We claim that . Indeed, if then, is algebraic over . Let be the minimal polynomial of over . By using , we may take as an algebraic closure of . Suppose that is a root of . Hence, there is an embedding extending . Since, , we get an embedding . By the maximality of we conclude that . As was arbitrary, we get that .  "
 },
 {
-  "id": "thm-uniqueness-of-algebraic-closure",
+  "id": "prop-homomorphism-extension",
   "level": "2",
-  "url": "sec-field-extensions.html#thm-uniqueness-of-algebraic-closure",
-  "type": "Theorem",
+  "url": "sec-field-extensions.html#prop-homomorphism-extension",
+  "type": "Proposition",
   "number": "32",
-  "title": "Uniqueness of algebraic closure.",
-  "body": " Uniqueness of algebraic closure   Let be a field and let and be two algebraic closures of . Then, there exists an isomorphism such that .   "
+  "title": "Extension of homomorphism.",
+  "body": " Extension of homomorphism   Suppose that is a field and that is an algebraic closure of . If is an algebraic field extension and an embedding which is the identity on . If is an algebraic field extension, then there exists an embedding which extends and is the identity on . Pictorially, we have the following commutative diagram.  Extension of homomorphism       "
 },
 {
   "id": "sec-field-extensions-8",
@@ -367,14 +367,32 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "3",
   "title": "",
+  "body": " The embedding makes an algebraic closure of . Therefore, we can apply with replaced by to get an embedding which is the identity on . In particular, it is the identity on .  "
+},
+{
+  "id": "thm-uniqueness-of-algebraic-closure",
+  "level": "2",
+  "url": "sec-field-extensions.html#thm-uniqueness-of-algebraic-closure",
+  "type": "Theorem",
+  "number": "34",
+  "title": "Uniqueness of algebraic closure.",
+  "body": " Uniqueness of algebraic closure   Let be a field and let and be two algebraic closures of . Then, there exists an isomorphism such that .   "
+},
+{
+  "id": "sec-field-extensions-10",
+  "level": "2",
+  "url": "sec-field-extensions.html#sec-field-extensions-10",
+  "type": "Proof",
+  "number": "4",
+  "title": "",
   "body": " We apply with , to get an embedding which is the identity on . By the isomorphism theorem , and hence is algebraically closed. However, is an algebraic extension. This shows that , and hence is a required isomorphism.  "
 },
 {
-  "id": "sec-field-extensions-9",
+  "id": "sec-field-extensions-11",
   "level": "2",
-  "url": "sec-field-extensions.html#sec-field-extensions-9",
+  "url": "sec-field-extensions.html#sec-field-extensions-11",
   "type": "Checkpoint",
-  "number": "33",
+  "number": "35",
   "title": "",
   "body": "  Let be an algebraic field extension and let be algebraically closed field. Show that .   "
 },
@@ -385,14 +403,14 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Normal field extension",
-  "body": " Normal field extension   Normal field extension   A field extension is said to be a normal field extension if is the splitting field of some family of polynomials in .     If is a normal field extension then, is algebraic.     The following are equivalent for a field extension :     is a normal extension.    If is an -embedding of into an algebraic closure of containing then, is an automorphism of .    Every irreducible polynomial in that has at least one root in completely splits in .       Suppose that is a normal extension, and that is an -embedding of into an algebraic closure of . We need to show that is an automorphism of . Assume that is a splitting field of . Therefore, is also a splitting field of over . As and are generated over by the same roots, we have .  Now assume that every -embedding of is an automorphism of . Let be an irreducible polynomial with a root . For any other root there is an isomomorphism given by and for all . By the extension theorem for field homomorphisms, extends to an -embedding . By our assumption, is an automorphism of . Therefore, . Thus, every root of lies in .   "
+  "body": " Normal field extension   Normal field extension   A field extension is said to be a normal field extension if is the splitting field of some family of polynomials in .     If is a normal field extension then, is algebraic.     The following are equivalent for a field extension :     is a normal extension.    If is an -embedding of into an algebraic closure of containing then, is an automorphism of .    Every irreducible polynomial in that has at least one root in completely splits in .       Suppose that is a normal extension, and that is an -embedding of into an algebraic closure of . We need to show that is an automorphism of . Assume that is a splitting field of . Therefore, is also a splitting field of over . As and are generated over by the same roots, we have .  Now assume that every -embedding of is an automorphism of . Let be an irreducible polynomial with a root . For any other root there is an isomomorphism given by and for all . By the extension theorem for field homomorphisms , extends to an -embedding . By our assumption, is an automorphism of . Therefore, . Thus, every root of lies in .  Now assume that every irreducible polynomial in that has at least one root in completely splits in . Let be the set of all irreducible polynomials that have at least one root in . Then, by our assumption, each completely splits in . Therefore, is the splitting field of .   "
 },
 {
   "id": "def-normal-field-extension",
   "level": "2",
   "url": "sec-normal-extension.html#def-normal-field-extension",
   "type": "Definition",
-  "number": "34",
+  "number": "36",
   "title": "Normal field extension.",
   "body": " Normal field extension   A field extension is said to be a normal field extension if is the splitting field of some family of polynomials in .   "
 },
@@ -401,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-extension.html#normal-implies-algebraic",
   "type": "Note",
-  "number": "35",
+  "number": "37",
   "title": "",
   "body": " If is a normal field extension then, is algebraic.  "
 },
@@ -410,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-normal-extension.html#thm-equivalent-conditions-normal-field-extension",
   "type": "Theorem",
-  "number": "36",
+  "number": "38",
   "title": "",
   "body": "  The following are equivalent for a field extension :     is a normal extension.    If is an -embedding of into an algebraic closure of containing then, is an automorphism of .    Every irreducible polynomial in that has at least one root in completely splits in .     "
 },
@@ -421,7 +439,7 @@ var ptx_lunr_docs = [
   "type": "Proof",
   "number": "1",
   "title": "",
-  "body": " Suppose that is a normal extension, and that is an -embedding of into an algebraic closure of . We need to show that is an automorphism of . Assume that is a splitting field of . Therefore, is also a splitting field of over . As and are generated over by the same roots, we have .  Now assume that every -embedding of is an automorphism of . Let be an irreducible polynomial with a root . For any other root there is an isomomorphism given by and for all . By the extension theorem for field homomorphisms, extends to an -embedding . By our assumption, is an automorphism of . Therefore, . Thus, every root of lies in .  "
+  "body": " Suppose that is a normal extension, and that is an -embedding of into an algebraic closure of . We need to show that is an automorphism of . Assume that is a splitting field of . Therefore, is also a splitting field of over . As and are generated over by the same roots, we have .  Now assume that every -embedding of is an automorphism of . Let be an irreducible polynomial with a root . For any other root there is an isomomorphism given by and for all . By the extension theorem for field homomorphisms , extends to an -embedding . By our assumption, is an automorphism of . Therefore, . Thus, every root of lies in .  Now assume that every irreducible polynomial in that has at least one root in completely splits in . Let be the set of all irreducible polynomials that have at least one root in . Then, by our assumption, each completely splits in . Therefore, is the splitting field of .  "
 }
 ]
 

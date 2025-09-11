@@ -304,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Tutorial-6",
-  "body": " Tutorial-6   Following exercises are taken from Section 13.6 of the book Abstract Algebra by Dummit and Foote.      Show the following.   Suppose that and are primitive -th and primitive -th roots of unity, respectively. If then, show that is a primitive -th root of unity, and that for a divisior of , is a primitive -th root of unity.    If , where is a prime and then, there are precisely distinct -th roots of unity over a field of characteristic .    Let be an odd natural number. Show that if a field contains the -th roots of unity then, it contains the -th roots of unity.         Show that there are only a finite number of roots of unity in any finite extension of .      Show the following.   For a natural number , show that .         Let be such that for some . Show that is diagonalizable.  Let be a field of characteristic , and let be such that . Show that if then, is not diagonalizable.      Consider the Frobenious homomorphism given by .   Show that is an isomorphism. Further show that and that no lower power of is the identity.    Determine the rational canonical form of over , where is considered to be an -linear map on the -dimensional vector space over .    Determine the Jordan canonical form over a field containing all the eigenvalues of , where is considered to be an -linear map on the -dimensional vector space over .        "
+  "body": " Tutorial-6   Following exercises are taken from Section 13.6 of the book Abstract Algebra by Dummit and Foote.      Show the following.   Suppose that and are primitive -th and primitive -th roots of unity, respectively. If then, show that is a primitive -th root of unity, and that for a divisior of , is a primitive -th root of unity.    If , where is a prime and then, there are precisely distinct -th roots of unity over a field of characteristic .    Let be an odd natural number. Show that if a field contains the -th roots of unity then, it contains the -th roots of unity.         Show that there are only a finite number of roots of unity in any finite extension of .      Show that for a natural number , show that .      Let be such that for some . Show that is diagonalizable.  Let be a field of characteristic , and let be such that . Show that if then, is not diagonalizable.      Consider the Frobenious homomorphism given by .   Show that is an isomorphism. Further show that and that no lower power of is the identity.    Determine the rational canonical form of over , where is considered to be an -linear map on the -dimensional vector space over .    Determine the Jordan canonical form over a field containing all the eigenvalues of , where is considered to be an -linear map on the -dimensional vector space over .        "
 },
 {
   "id": "activity-tutorial-6-3-1",
@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Show the following.   For a natural number , show that .      "
+  "body": "  Show that for a natural number , show that .   "
 },
 {
   "id": "activity-tutorial-6-3-4",

@@ -7,4 +7,85 @@
                     Following exercises are taken from Section 13.6 of the book <em>Abstract Algebra</em> by Dummit and Foote.
                 </p>
   </introduction>
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                Show the following.
+                <ol>
+                    <li>
+                        <p>
+                            Suppose that <m>\zeta_n</m> and <m>\zeta_m</m> are primitive <m>n</m>-th and primitive <m>m</m>-th roots of unity, respectively. If <m>\gcd(m,n)=1</m> then, show that <m>\zeta_m\zeta_n</m> is a primitive <m>mn</m>-th root of unity, and that for a divisior <m>d</m> of <m>n</m>, <m>\left(\zeta_n\right)^d</m> is a primitive <m>\tfrac{n}{d}</m>-th root of unity.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a=p^kb</m>, where <m>p</m> is a prime and <m>p\not\mid b</m> then, there are precisely <m>b</m> distinct <m>a</m>-th roots of unity over a field of characteristic <m>p</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Let <m>n</m> be an odd natural number. Show that if a field contains the <m>n</m>-th roots of unity then, it contains the <m>2n</m>-th roots of unity.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that there are only a finite number of roots of unity in any finite extension <m>K</m> of <m>\Q</m>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show the following.
+                <ol>
+                    <li>
+                        <p>
+                            For a natural number <m>n&gt;1</m>, show that <m>\Phi_{2n}(x)=\Phi(-x)</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>A\in M_n(\C)</m> be such that <m>A^m=I_n</m> for some <m>m\in\N</m>. Show that <m>A</m> is diagonalizable.
+            </p>
+            <p>
+                Let <m>F</m> be a field of characteristic <m>p\neq 0</m>, and let <m>A=\left(\begin{smallmatrix}1\amp a\\0\amp 1\end{smallmatrix}\right)\in M_2(F)</m> be such that <m>A^p=I_2</m>. Show that if <m>a\neq 0</m> then, <m>A</m> is not diagonalizable.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Consider the Frobenious map <m>\varphi\colon\F_{p^n}\to\F_{p^n}</m> given by <m>x\mapsto x^p</m>.
+                <ol>
+                    <li>
+                        <p>
+                            Show that <m>\varphi</m> is an isomorphism. Further show that <m>\varphi^n=\unit_{\F_{p^n}}</m> and that no lower power of <m>\varphi</m> is the identity.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine the rational canonical form of <m>\varphi</m> over <m>\F_p</m>, where <m>\varphi</m> is considered to be an <m>\F_p</m>-linear map on the <m>n</m>-dimensional vector space <m>\F_{p^n}</m> over <m>\F_p</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Determine the Jordan canonical form over a field containing all the eigenvalues of <m>\varphi</m>, where <m>\varphi</m> is considered to be an <m>\F_p</m>-linear map on the <m>n</m>-dimensional vector space <m>\F_{p^n}</m> over <m>\F_p</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+  </page>
 </worksheet>

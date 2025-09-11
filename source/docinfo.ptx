@@ -25,6 +25,7 @@
     \newcommand{\C}{\mathbb C}
     \newcommand{\F}{\mathbb F}
     \newcommand{\ev}{{\mathrm ev}}
+    \newcommand{\unit}{1\!\!1}
   </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->

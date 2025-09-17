@@ -25,7 +25,9 @@
     \newcommand{\C}{\mathbb C}
     \newcommand{\F}{\mathbb F}
     \newcommand{\ev}{{\mathrm ev}}
+    \newcommand{\Inn}[1]{\operatorname{Inn}\left(#1\right)}
     \newcommand{\Gal}[2]{\operatorname{Gal}\left(#1/#2\right)}
+    \newcommand{\Aut}[2]{\operatorname{Aut}\left(#1/#2\right)}
     \newcommand{\unit}{1\!\!1}
   </macros>
 

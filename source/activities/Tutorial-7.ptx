@@ -29,5 +29,49 @@
             </p>
         </statement>
     </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that <m>\Aut{\R}{\Q}=\{\unit_\R\}</m> by proving the following.
+                <ol>
+                    <li>
+                        <p>
+                            Show that any <m>\sigma\in\Aut{\R}{\Q}</m> takes squares to squares and a positive real number to a positive real number. Thus, show that if <m>a&lt;b</m> then, <m>\sigma a&lt;\sigma b</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show that <m>\sigma\in\Aut{\R}{\Q}</m> is a continuous map by proving that the following.
+                            <p>
+                                For <m>m\in\N</m>, if <m>\tfrac{-1}{m}&lt;a-b&lt;\tfrac{1}{m}</m> then, <m>\tfrac{-1}{m}&lt;\sigma a-\sigma b&lt;\tfrac{1}{m}</m>.
+                            </p>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Show that a continous real-valued map on <m>\R</m> which is identity on <m>\Q</m> is identity on <m>\R</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Show that the automorphisms of the rational function field <m>F(t)</m> fixing <m>F</m> are precisely <em>fractional linear transformations</em> detrmined by <m>t\mapsto at+b\big/ct+d</m>, where <m>a,b,c,d\in F</m> with <m>ad-bc\neq 0</m>.
+            </p>
+            <p>
+                Determine the fixed field of the automorphism of <m>F(t)</m> given by <me>\frac{f(t)}{g(t)}\mapsto \frac{f(1+t)}{g(1+t)}</me>.
+            </p>
+        </statement>
+    </exercise>
+    <exercise>
+        <statement>
+            <p>
+                Let <m>K/F</m> be a field extension and <m>\varphi\colon K\to K'</m> an isomorphism of fields. Let <m>F'=\varphi(F)</m>. Show that the map <m>\Inn{\varphi}\colon\Aut{K}{F}\to\Aut{K'}{F'}</m> defined by <m>\sigma\mapsto\varphi\circ\sigma\circ\varphi^{-1}</m> is a group isomorphism.
+            </p>
+        </statement>
+    </exercise>
   </page>
 </worksheet>

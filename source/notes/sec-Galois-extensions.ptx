@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <section xml:id="sec-Galois-extensions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Galois field extensions</title>
+    <introduction>
+        <p>
+            We begin with the following example to illustrate the <sq>Fundamental Theorem of Galois Theory</sq>.
+        </p>
+    </introduction>
+
+    <lemma xml:id="lem-splitting-field-of-third-root-of-2">
+        <statement>
+            <p>
+                Suppose that <m>\omega\in\C</m> denotes a primitive third root of unity, and that <m>\alpha=\sqrt[3]{2}\in\R</m> denotes the real third root of <m>2</m>. Let <m>K=\Q\left(\alpha,\omega\right)</m> a field generated over <m>\Q</m> by <m>\alpha,\omega</m>. Then,
+                <ol>
+                    <li>
+                        <p>
+                            <m>K/\Q</m> is Galois field extension, and
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <m>[K:\Q]=6</m> and <m>\{1,\alpha,\alpha^2,\omega,\omega\alpha,\omega\alpha^2\}</m> is a <m>\Q</m>-basis of <m>K/\Q</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        The field <m>K</m> is the splitting field of an irreducible separable polynomial <m>x^3-2</m> over <m>\Q</m> (see <xref ref="ex-degree-of-field-extension"/>). Therefore, <m>K/\Q</m> Galois.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        This follows from <xref ref="ex-degree-of-field-extension"/> and the observation that <m>\alpha^2\beta=\omega</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </proof>
+    <lemma xml:id="lem-Galois-group-of-splitting-field-of-third-root-of-2">
+        <statement>
+            <p>
+                Keep notations of <xref ref="lem-splitting-field-of-third-root-of-2"/>. The Galois group of <m>K/\Q</m> is isomorphic to the permutation group <m>S_3</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            We consider <m>\{1,\alpha,\alpha^2,\omega,\omega\alpha,\omega\alpha^2\}</m> as a basis of <m>K/\Q</m>. Define the following automorphisms.
+            <me>
+                \sigma\colon
+                \begin{cases}\alpha\mapsto\omega\alpha\\\omega\mapsto\omega\end{cases}\quad\text{and}\quad
+                \tau\colon
+                \begin{cases}\alpha\mapsto\alpha\\\omega\mapsto\omega^2\end{cases}
+            </me>
+            
+        </p>
+    </proof>
+        </section>
+    </article>
+</pretext>

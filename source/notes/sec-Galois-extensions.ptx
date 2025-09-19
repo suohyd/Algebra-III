@@ -13,7 +13,7 @@
     <lemma xml:id="lem-splitting-field-of-third-root-of-2">
         <statement>
             <p>
-                Suppose that <m>\omega\in\C</m> denotes a primitive third root of unity, and that <m>\alpha=\sqrt[3]{2}\in\R</m> denotes the real third root of <m>2</m>. Let <m>K=\Q\left(\alpha,\omega\right)</m> a field generated over <m>\Q</m> by <m>\alpha,\omega</m>. Then,
+                Suppose that <m>\omega\in\C</m> denotes a primitive third root of unity, and that <m>\alpha=\sqrt[3]{2}\in\R</m> denotes the real third root of <m>2</m>. Let <m>K=\Q\left(\alpha,\omega\right)</m> be a field generated over <m>\Q</m> by <m>\alpha,\omega</m>. Then,
                 <ol>
                     <li>
                         <p>
@@ -56,12 +56,35 @@
         <p>
             We consider <m>\{1,\alpha,\alpha^2,\omega,\omega\alpha,\omega\alpha^2\}</m> as a basis of <m>K/\Q</m>. Define the following automorphisms.
             <me>
-                \sigma\colon
-                \begin{cases}\alpha\mapsto\omega\alpha\\\omega\mapsto\omega\end{cases}\quad\text{and}\quad
-                \tau\colon
-                \begin{cases}\alpha\mapsto\alpha\\\omega\mapsto\omega^2\end{cases}
+                \sigma\colon\
+                \begin{array}{1}\alpha\mapsto\omega\alpha\\\omega\mapsto\omega\end{array}
+                \quad\text{and}\quad
+                \tau\colon\
+                \begin{array}{1}\alpha\mapsto\alpha\\\omega\mapsto\omega^2\end{array}
+            </me>
+            One checks that <m>\sigma^3=\unit_K=\tau^2</m> and that <m>\tau\circ\sigma\circ\tau=\sigma^{-1}=\sigma^2</m>. Furthermore, as <m>K/\Q</m> is a Galois field extension of degree <m>6</m>, the Galois group is
+            <me>
+                \{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}\simeq S_3.
             </me>
             
+        </p>
+    </proof>
+    <lemma xml:id="lem-subgroups-of-splitting-field-of-third-root-of-2">
+        <statement>
+            <p>
+                Keep notations of <xref ref="lem-splitting-field-of-third-root-of-2"/>. Following are all the subfields of <m>K/\Q</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            We use the fundamental theorem of Galois theory. Note that following are all the subgroups of <m>S_3</m>.
+            <me>
+                H_0=\{e\}, H_1=\{e,\sigma,\sigma^2\}, H_2=\{e,\tau\}, H_3=\{e,\tau\sigma\}, H_4=\{e,\tau\sigma^2\}, \text{ and }, H_5=S_3
+            </me>
+        </p>
+        <p>
+            We calculate the fixed of of <m>H_1</m>.
         </p>
     </proof>
         </section>

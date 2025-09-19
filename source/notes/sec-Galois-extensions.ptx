@@ -91,6 +91,34 @@
             </md>
             The rank of the matrix <m>[\sigma]_{\mathfrak{B}}-I_6</m> is <m>6</m>, and hence the nullity is <m>2</m>. Note that <m>\{1,\omega\}</m> is a basis of its kernel. In particular, <m>\left[K^{H_1}:\Q\right]=2=\lvert S_3:H_1\rvert</m> and hence, <m>K^{H_1}=\Q(\omega)</m>.
         </p>
+        <p>
+            The matrix <m>[\tau]_{\mathfrak{B}}-I_6</m> with respect to <m>\mathfrak{B}</m> is
+            <me>
+                \begin{pmatrix}I_3\amp -I_3\\0_3\amp -2\cdot I_3\end{pmatrix},
+            </me>
+            where, <m>0_3</m> and <m>I_3</m> are <m>3\times 3</m> zero matrix and the identity matrix, respectively. The kernel of the associated linear transformation has dimension <m>3</m> and <m>\{1,\alpha,\alpha^2\}</m> may be considered as a basis. Thus, we get that <m>K^{H_2}=\Q(\alpha)</m>. Note that <m>\left[K^{H_2}:\Q\right]=\lvert S_3:H_2\rvert</m>.
+        </p>
+        <p>
+            Now we can find <m>K^{H_5}</m>. For any <m>x\in K^{H_5}</m> we must have <m>x\in K^{H_1}\cap K^{H_2}</m>. Therefore, there exists some <m>a_1,a_2\in\Q</m> and <m>b_1,b_2,b_3\in\Q</m> such that
+            <me>
+                x=a_1\cdot 1+a_2\cdot\omega=b_1\cdot 1+b_2\cdot\alpha+b_3\cdot\alpha^2
+            </me>
+            Since <m>1,\alpha,\alpha^2,\omega</m> are linearly independent over <m>\Q</m> we must have <m>x\in\Q</m>. Thus, <m>K^{H_1}\cap K^{H_2}=\Q</m>. In particular, <m>K^{H_5}=\Q</m>.
+        </p>
+        <p>
+            The matrix The matrix <m>[\tau\sigma]_{\mathfrak{B}}-I_6</m> with respect to <m>\mathfrak{B}</m> is
+            <me>
+                \begin{pmatrix}0\amp 0\amp 0\amp -1\amp 0\amp 0\\0\amp -2\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp -2\amp 0\amp 0\\0\amp -1\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 1\amp 0\amp 0\amp -1\end{pmatrix}.
+            </me>
+            The rank of the above matrix is <m>3</m>. Hence, the kernel of the linear transformation associated with the above matrix has dimension <m>3</m>. One may take <m>\{1,\omega\alpha,\alpha^2+\omega\alpha^2\}</m> as a basis of the kernel. We thus have <m>\left[K^{H_3}:\Q\right]=3</m>. As <m>\omega\alpha\in K^{H_3}</m>, so is <m>(\omega\alpha)^2=-(\alpha^2+\omega\alpha^2)</m>. Furthermore, <m>\Q\left(\omega\alpha\right)\simeq\Q[x]/(x^3-2)</m>, and hence, <m>\left[\Q\left(\omega\alpha\right):\Q\right]=3</m>. Therefore, <m>K^{H_3}=\Q\left(\omega\alpha\right)</m>.
+        </p>
+        <p>
+            The matrix The matrix <m>[\tau\sigma^2]_{\mathfrak{B}}-I_6</m> with respect to <m>\mathfrak{B}</m> is
+            <me>
+                \begin{pmatrix}0\amp 0\amp 0\amp -1\amp 0\amp 0\\0\amp -1\amp 0\amp 0\amp 1\amp 0\\0\amp 0\amp -2\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp -2\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 0\end{pmatrix}
+            </me>
+            The rank of the above matrix is <m>3</m>. Hence, the kernel of the linear transformation associated with the above matrix has dimension <m>3</m>. One may take <m>\{1,\alpha+\omega\alpha,\omega\alpha^2\}</m> as a basis of the kernel. We thus have <m>\left[K^{H_4}:\Q\right]=3</m>. Note that <m>-(\alpha+\omega\alpha)=\omega^2\alpha</m>. Thus, <m>\omega^2\alpha\in K^{H_4}</m>. Furthermore, <m>\Q\left(\omega^2\alpha\right)\simeq\Q[x]/(x^3-2)</m>, and hence, <m>\left[\Q\left(\omega^2\alpha\right):\Q\right]=3</m>. Therefore, <m>K^{H_4}=\Q\left(\omega\alpha\right)</m>.
+        </p>
     </proof>
         </section>
     </article>

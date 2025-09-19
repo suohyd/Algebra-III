@@ -85,10 +85,11 @@
         </p>
         <p>
             We calculate the fixed of of <m>H_1</m>. It is enough to find <m>x\in K</m> such that <m>\sigma x=x</m>, i.e., <m>(\sigma-\unit_K)(x)=x</m>. We first find the matrix of <m>\sigma</m> with respect to a basis <m>\mathfrak{B}=\{1,\alpha,\alpha^2,\omega,\omega\alpha,\omega\alpha^2\}</m>. We get the following using <m>\omega^2+\omega+1=0\in K</m>.
-            <me>
-                [\sigma]_{\mathfrak{B}}-I_6=\begin{pmatrix}1\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp 1\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 0\end{pmatrix}-\begin{pmatrix}1\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 1\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp 1\amp 0\amp 0\\0\amp 0\amp 0\amp 0\amp 1\amp 0\\0\amp 0\amp 0\amp 0\amp 0\amp 1\end{pmatrix}
-            </me>
-            
+            <md>
+                <mrow> [\sigma]_{\mathfrak{B}}-I_6\amp =\begin{pmatrix}1\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp 1\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 0\end{pmatrix}-\begin{pmatrix}1\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 1\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp 1\amp 0\amp 0\\0\amp 0\amp 0\amp 0\amp 1\amp 0\\0\amp 0\amp 0\amp 0\amp 0\amp 1\end{pmatrix}</mrow>
+                <mrow> \amp =\begin{pmatrix}0\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp -1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -2\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -2\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp -1\end{pmatrix}</mrow>
+            </md>
+            The rank of the matrix <m>[\sigma]_{\mathfrak{B}}-I_6</m> is <m>6</m>, and hence the nullity is <m>2</m>. Note that <m>\{1,\omega\}</m> is a basis of its kernel. In particular, <m>\left[K^{H_1}:\Q\right]=2=\lvert S_3:H_1\rvert</m> and hence, <m>K^{H_1}=\Q(\omega)</m>.
         </p>
     </proof>
         </section>

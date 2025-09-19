@@ -62,23 +62,48 @@
                 \tau\colon\
                 \begin{array}{1}\alpha\mapsto\alpha\\\omega\mapsto\omega^2\end{array}
             </me>
-            One checks that <m>\sigma^3=\unit_K=\tau^2</m> and that <m>\tau\circ\sigma\circ\tau=\sigma^{-1}=\sigma^2</m>. Furthermore, as <m>K/\Q</m> is a Galois field extension of degree <m>6</m>, the Galois group is
+            One checks that <m>\sigma^3=\unit_K=\tau^2</m> and that <m>\tau\circ\sigma\circ\tau=\sigma^{-1}=\sigma^2</m>. <!--Furthermore, as <m>K/\Q</m> is a Galois field extension of degree <m>6</m>, the Galois group is
             <me>
                 \{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}\simeq S_3.
-            </me>
-            
+            </me>-->
+            Suppose that <m>\phi\colon K\to K</m> is an automorphism fixing <m>\Q</m>. Them, <m>\phi</m> is determined by its action on <m>\alpha</m> and <m>\omega</m>. We have <m>\phi(\alpha)</m> to be one of the roots of <m>x^3-2</m> in <m>K</m>, i.e., <m>\phi(\alpha)\in\{\alpha,\omega\alpha,\omega^2\alpha\}</m>. Similar reasoning implies that <m>\phi(\omega)\in\{\omega,\omega^2\}</m>. There are six possible combinations and one can check that <m>\phi\in\{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}</m>.            
+        </p>
+        <p>
+            Of course one may directly use one of the equivalent conditions of Galois extensions, viz., <m>[K:\Q]=6=\lvert\Gal{K}{\Q}\rvert</m>, to deduce that <m>\Gal{K}{\Q}\simeq S_3\simeq\{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}</m>.
         </p>
     </proof>
     <lemma xml:id="lem-subgroups-of-splitting-field-of-third-root-of-2">
         <statement>
             <p>
                 Keep notations of <xref ref="lem-splitting-field-of-third-root-of-2"/>. Following are all the subfields of <m>K/\Q</m>.
+                <figure xml:id="subfields-ofsplitting-field-of-third-root-of-2">
+                    <caption></caption>
+                    <image>
+                        <shortdescription></shortdescription>
+                        <latex-image>
+                            \begin{tikzcd}
+	\amp {\mathbb{Q}(\alpha,\omega)} \\
+	\amp\amp {\mathbb{Q}(\alpha)} \amp {\mathbb{Q}(\omega\alpha)} \amp {\mathbb{Q}(\omega^2\alpha)} \\
+	{\mathbb{Q}(\omega)} \\
+	\amp {\mathbb{Q}}
+	\arrow[no head, from=1-2, to=2-3]
+	\arrow[no head, from=1-2, to=2-4]
+	\arrow[no head, from=1-2, to=2-5]
+	\arrow[no head, from=1-2, to=3-1]
+	\arrow[no head, from=2-3, to=4-2]
+	\arrow[no head, from=2-4, to=4-2]
+	\arrow[no head, from=2-5, to=4-2]
+	\arrow[no head, from=3-1, to=4-2]
+\end{tikzcd}
+                        </latex-image>
+                    </image>
+                </figure>               
             </p>
         </statement>
     </lemma>
     <proof>
         <p>
-            We use the fundamental theorem of Galois theory. Note that following are all the subgroups of <m>S_3</m>.
+            By using the fundamental theorem of Galois theory, the subfields of <m>K/\Q</m> corresponds precisely to the fixed fields of subgroups of <m>\Gal{K}{\Q}</m>. Note that following are all the subgroups of <m>\Gal{K}{\Q}</m>.
             <me>
                 H_0=\{e\}, H_1=\{e,\sigma,\sigma^2\}, H_2=\{e,\tau\}, H_3=\{e,\tau\sigma\}, H_4=\{e,\tau\sigma^2\}, \text{ and }, H_5=S_3
             </me>
@@ -89,7 +114,7 @@
                 <mrow> [\sigma]_{\mathfrak{B}}-I_6\amp =\begin{pmatrix}1\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp 1\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 0\end{pmatrix}-\begin{pmatrix}1\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 1\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp 1\amp 0\amp 0\\0\amp 0\amp 0\amp 0\amp 1\amp 0\\0\amp 0\amp 0\amp 0\amp 0\amp 1\end{pmatrix}</mrow>
                 <mrow> \amp =\begin{pmatrix}0\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp -1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -2\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp 0\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -2\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp -1\end{pmatrix}</mrow>
             </md>
-            The rank of the matrix <m>[\sigma]_{\mathfrak{B}}-I_6</m> is <m>6</m>, and hence the nullity is <m>2</m>. Note that <m>\{1,\omega\}</m> is a basis of its kernel. In particular, <m>\left[K^{H_1}:\Q\right]=2=\lvert S_3:H_1\rvert</m> and hence, <m>K^{H_1}=\Q(\omega)</m>.
+            The rank of the matrix <m>[\sigma]_{\mathfrak{B}}-I_6</m> is <m>4</m>, and hence the nullity is <m>2</m>. Note that <m>\{1,\omega\}</m> is a basis of its kernel. In particular, <m>\left[K^{H_1}:\Q\right]=2=\lvert S_3:H_1\rvert</m> and hence, <m>K^{H_1}=\Q(\omega)</m>. Furthermore, <m>H_1</m> is the normal subgroup of <m>S_3</m>. The fundamental theorem of Galois theory asserts that <m>K^{H_1}=\Q(\omega)</m> is Galois. Indeed, <m>\Q(\omega)</m> is the splitting field of an irreducible separable polynomial <m>x^2+x+1</m> over <m>\Q</m>.
         </p>
         <p>
             The matrix <m>[\tau]_{\mathfrak{B}}-I_6</m> with respect to <m>\mathfrak{B}</m> is
@@ -106,7 +131,7 @@
             Since <m>1,\alpha,\alpha^2,\omega</m> are linearly independent over <m>\Q</m> we must have <m>x\in\Q</m>. Thus, <m>K^{H_1}\cap K^{H_2}=\Q</m>. In particular, <m>K^{H_5}=\Q</m>.
         </p>
         <p>
-            The matrix The matrix <m>[\tau\sigma]_{\mathfrak{B}}-I_6</m> with respect to <m>\mathfrak{B}</m> is
+            The matrix of <m>[\tau\sigma]_{\mathfrak{B}}-I_6</m> with respect to <m>\mathfrak{B}</m> is
             <me>
                 \begin{pmatrix}0\amp 0\amp 0\amp -1\amp 0\amp 0\\0\amp -2\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 1\\0\amp 0\amp 0\amp -2\amp 0\amp 0\\0\amp -1\amp 0\amp 0\amp 0\amp 0\\0\amp 0\amp 1\amp 0\amp 0\amp -1\end{pmatrix}.
             </me>
@@ -117,7 +142,7 @@
             <me>
                 \begin{pmatrix}0\amp 0\amp 0\amp -1\amp 0\amp 0\\0\amp -1\amp 0\amp 0\amp 1\amp 0\\0\amp 0\amp -2\amp 0\amp 0\amp 0\\0\amp 0\amp 0\amp -2\amp 0\amp 0\\0\amp 1\amp 0\amp 0\amp -1\amp 0\\0\amp 0\amp -1\amp 0\amp 0\amp 0\end{pmatrix}
             </me>
-            The rank of the above matrix is <m>3</m>. Hence, the kernel of the linear transformation associated with the above matrix has dimension <m>3</m>. One may take <m>\{1,\alpha+\omega\alpha,\omega\alpha^2\}</m> as a basis of the kernel. We thus have <m>\left[K^{H_4}:\Q\right]=3</m>. Note that <m>-(\alpha+\omega\alpha)=\omega^2\alpha</m>. Thus, <m>\omega^2\alpha\in K^{H_4}</m>. Furthermore, <m>\Q\left(\omega^2\alpha\right)\simeq\Q[x]/(x^3-2)</m>, and hence, <m>\left[\Q\left(\omega^2\alpha\right):\Q\right]=3</m>. Therefore, <m>K^{H_4}=\Q\left(\omega\alpha\right)</m>.
+            The rank of the above matrix is <m>3</m>. Hence, the kernel of the linear transformation associated with the above matrix has dimension <m>3</m>. One may take <m>\{1,\alpha+\omega\alpha,\omega\alpha^2\}</m> as a basis of the kernel. We thus have <m>\left[K^{H_4}:\Q\right]=3</m>. Note that <m>-(\alpha+\omega\alpha)=\omega^2\alpha</m>. Thus, <m>\omega^2\alpha\in K^{H_4}</m>. Furthermore, <m>\Q\left(\omega^2\alpha\right)\simeq\Q[x]/(x^3-2)</m>, and hence, <m>\left[\Q\left(\omega^2\alpha\right):\Q\right]=3</m>. Therefore, <m>K^{H_4}=\Q\left(\omega^2\alpha\right)</m>.
         </p>
     </proof>
         </section>

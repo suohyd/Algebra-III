@@ -2,11 +2,11 @@
 
 <pretext>
     <article xml:id="notes">
-        <section xml:id="sec-Galois-extensions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Galois field extensions</title>
+        <section xml:id="sec-splitting-field-of-third-root-of-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The splitting field of a third root of <m>2</m> over <m>\Q</m></title>
     <introduction>
         <p>
-            We begin with the following example to illustrate the <sq>Fundamental Theorem of Galois Theory</sq>.
+            We consider the following example as an illustration to the <sq>Fundamental Theorem of Galois Theory</sq>.
         </p>
     </introduction>
 
@@ -66,7 +66,7 @@
             <me>
                 \{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}\simeq S_3.
             </me>-->
-            Suppose that <m>\phi\colon K\to K</m> is an automorphism fixing <m>\Q</m>. Them, <m>\phi</m> is determined by its action on <m>\alpha</m> and <m>\omega</m>. We have <m>\phi(\alpha)</m> to be one of the roots of <m>x^3-2</m> in <m>K</m>, i.e., <m>\phi(\alpha)\in\{\alpha,\omega\alpha,\omega^2\alpha\}</m>. Similar reasoning implies that <m>\phi(\omega)\in\{\omega,\omega^2\}</m>. There are six possible combinations and one can check that <m>\phi\in\{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}</m>.            
+            Suppose that <m>\phi\colon K\to K</m> is an automorphism fixing <m>\Q</m>. Then, <m>\phi</m> is determined by its action on <m>\alpha</m> and <m>\omega</m>. We have <m>\phi(\alpha)</m> to be one of the roots of <m>x^3-2</m> in <m>K</m>, i.e., <m>\phi(\alpha)\in\{\alpha,\omega\alpha,\omega^2\alpha\}</m>. Similar reasoning implies that <m>\phi(\omega)\in\{\omega,\omega^2\}</m>. There are six possible combinations and one can check that <m>\phi\in\{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}</m>.            
         </p>
         <p>
             Of course one may directly use one of the equivalent conditions of Galois extensions, viz., <m>[K:\Q]=6=\lvert\Gal{K}{\Q}\rvert</m>, to deduce that <m>\Gal{K}{\Q}\simeq S_3\simeq\{e,\sigma,\sigma^2,\tau,\tau\sigma,\tau\sigma^2\}</m>.

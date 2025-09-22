@@ -17,7 +17,7 @@
     <xi:include href="./notes/sec-field-generated-by.ptx" xpointer="notes/1" />
     <xi:include href="./notes/sec-field-extensions.ptx" xpointer="notes/1" />
     <xi:include href="./notes/sec-normal-extension.ptx" xpointer="notes/1" />
-    <xi:include href="./notes/sec-Galois-extensions.ptx" xpointer="notes/1"/>
+    <xi:include href="./notes/sec-splitting-field-of-third-root-of-2.ptx" xpointer="notes/1"/>
 
     <!-- Add more xi:include files here to include them in the main course -->
   </article>

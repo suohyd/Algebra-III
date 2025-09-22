@@ -145,6 +145,25 @@
             The rank of the above matrix is <m>3</m>. Hence, the kernel of the linear transformation associated with the above matrix has dimension <m>3</m>. One may take <m>\{1,\alpha+\omega\alpha,\omega\alpha^2\}</m> as a basis of the kernel. We thus have <m>\left[K^{H_4}:\Q\right]=3</m>. Note that <m>-(\alpha+\omega\alpha)=\omega^2\alpha</m>. Thus, <m>\omega^2\alpha\in K^{H_4}</m>. Furthermore, <m>\Q\left(\omega^2\alpha\right)\simeq\Q[x]/(x^3-2)</m>, and hence, <m>\left[\Q\left(\omega^2\alpha\right):\Q\right]=3</m>. Therefore, <m>K^{H_4}=\Q\left(\omega^2\alpha\right)</m>.
         </p>
     </proof>
+<!--  <lemma xml:id="lem-number-of-subfields-isomorphicto-fieldgenerated-by-of-third-root-of-2">
+        <statement>
+            <p>
+                Keep notations of <xref ref="lem-splitting-field-of-third-root-of-2"/>. There are exactly three subfields of <m>K/\Q</m> that are isomorphic to <m>\Q(\alpha)</m>.
+            </p>
+        </statement>
+    </lemma>
+    <proof>
+        <p>
+            The lemma is clear because we have already listed all the subfields of <m>K/\Q</m>. So, the subfields of <m>K/\Q</m> isomorphic to <m>\Q(\alpha)</m> are <m>\Q(\alpha)</m>, <m>\Q(\omega\alpha)</m>, and <m>\Q(\omega^2\alpha)</m>.
+        </p>
+        <p>
+            We approach the question in a different way. Consider the following.
+            <me>
+                \Aut{K}{\Q(\alpha)}=\left\{\phi\in\Gal{K}{\Q}:\phi|_{\Q(\alpha)}=\unit_{\Q(\alpha)}\right\}=\langle\tau\rangle
+            </me>
+            Put <m>G=\Gal{K}{\Q}</m> and <m>H=\Aut{K}{\Q(\alpha)}</m>. The normalizer of <m>H</m> in <m>G</m>, i.e., <m>N_G(H)=\{g\in G:gHg^{-1}\subseteq H\}=H.</m>
+        </p>
+    </proof>-->
         </section>
     </article>
 </pretext>

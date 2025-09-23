@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article xml:id="notes">
+        <section xml:id="sec-Galois-subfield-of-rational-fn-field" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>A Galois subfield of the rational functional field</title>
+    <introduction>
+        <p>
+            We consider another example of a Galois extension of fields. Let <m>K=\R(x)</m> the rational function field over <m>\R</m> and let <m>F=\R\left(\tfrac{x^4+1}{x^2}\right)</m>. We show that <m>K/F</m> is a Galois field extension with Galois group isomorphic to the Klein four-group <m>V_4</m>.
+        </p>
+    </introduction>
+    <p>
+        First note that <m>x^4+1</m> and <m>x^2</m> are coprime polynomials in <m>\R[x]</m>. Thus, by Exercise 7 <url href="https://suohyd.github.io/Algebra-III/worksheets/activity-tutorial-3.html" />, we have the following.
+        <ol>
+            <li>
+                <p>
+                    The polynomial <m>f(s)=\left(s^4+1\right)-\tfrac{x^4+1}{x^2}s^2\in F[s]</m> is irreducible <m>F</m>, and <m>x\in\R(x)</m> is a root of <m>f(s)</m>. Therefore, <m>f(s)</m> is the minimal polynomial of <m>x</m> over <m>F</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The degree of the field extension <m>[K:F]=4</m> and <m>\R(x)\simeq F[s]/(f(s))</m>.
+                </p>
+            </li>
+        </ol>
+        We have the following four distinct <m>F</m>-automorphisms of <m>K</m>.
+        <me>
+            \unit_{K};\quad \sigma(x)=-x;\quad \tau(x)=\tfrac{1}{x};\quad \sigma\tau(x)=\tau\sigma(x)=-\tfrac{1}{x}.
+        </me>
+        The order of <m>\sigma</m> and <m>\tau</m> is <m>2</m>. Furthermore, we also have <m>\lvert\Aut{K}{F}\rvert\leq [K:F]=4</m> (see Corollary 10, Chapter 14, Dummit &amp; Foote). Hence, <m>\lvert\Aut{K}{F}\rvert = [K:F]=4</m> and hence, <m>K/F</m> is Galois. This shows that <m>K^{\Aut{K}{F}}=F</m>. We now verify this directly.
+        </p>
+        <p>
+            We take <m>\mathfrak{B}=\{1,x,x^2,x^3\}</m> as an <m>F</m>-basis of <m>K</m>. For brevity we put <m>t=\tfrac{x^4+1}{x^2}</m>. We use the relation <m>x^4-tx^2+1=0</m> to compute the matrix representations of the automorphisms with respect to the basis <m>\mathfrak{B}</m>.
+        <me>
+            [\unit_{K}]_{\mathfrak{B}}=\begin{pmatrix}
+                1 \amp 0 \amp 0 \amp 0 \\
+                0 \amp 1 \amp 0 \amp 0 \\
+                0 \amp 0 \amp 1 \amp 0 \\
+                0 \amp 0 \amp 0 \amp 1
+            \end{pmatrix};\quad [\sigma]_{\mathfrak{B}}=\begin{pmatrix}
+                1 \amp 0 \amp 0 \amp 0 \\
+                0 \amp -1 \amp 0 \amp 0 \\
+                0 \amp 0 \amp 1 \amp 0 \\
+                0 \amp 0 \amp 0 \amp -1
+            \end{pmatrix};\quad [\tau]_{\mathfrak{B}}=\begin{pmatrix}
+                1 \amp 0 \amp t \amp 0 \\
+                0 \amp t \amp 0 \amp 1+t^2 \\
+                0 \amp 0 \amp -1 \amp 0 \\
+                0 \amp -1 \amp 0 \amp -3t
+            \end{pmatrix};\quad [\sigma\tau]_{\mathfrak{B}}=\begin{pmatrix}
+                1 \amp 0 \amp t \amp 0 \\
+                0 \amp -t \amp 0 \amp -1-t^2 \\
+                0 \amp 0 \amp -1 \amp 0 \\
+                0 \amp 1 \amp 0 \amp 3t^2  
+            \end{pmatrix}.
+        </me>
+        The kernel of the linear transformation associated to <m>[\sigma]_{\mathfrak{B}}-I_4</m> (resp., <m>[\tau]_{\mathfrak{B}}-I_4</m>) has dimension <m>2</m> (resp., <m>1</m>). Therefore, <m>K^{\Aut{K}{F}}=F</m>.
+        </p>
+        
+    
+        </section>
+    </article>
+</pretext>

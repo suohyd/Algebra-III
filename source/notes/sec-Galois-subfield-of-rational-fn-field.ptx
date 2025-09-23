@@ -44,14 +44,14 @@
                 0 \amp 0 \amp 0 \amp -1
             \end{pmatrix};\quad [\tau]_{\mathfrak{B}}=\begin{pmatrix}
                 1 \amp 0 \amp t \amp 0 \\
-                0 \amp t \amp 0 \amp 1+t^2 \\
+                0 \amp t \amp 0 \amp t^2-1 \\
                 0 \amp 0 \amp -1 \amp 0 \\
-                0 \amp -1 \amp 0 \amp -3t
+                0 \amp -1 \amp 0 \amp -t
             \end{pmatrix};\quad [\sigma\tau]_{\mathfrak{B}}=\begin{pmatrix}
                 1 \amp 0 \amp t \amp 0 \\
-                0 \amp -t \amp 0 \amp -1-t^2 \\
+                0 \amp -t \amp 0 \amp t^2-1 \\
                 0 \amp 0 \amp -1 \amp 0 \\
-                0 \amp 1 \amp 0 \amp 3t^2  
+                0 \amp 1 \amp 0 \amp t  
             \end{pmatrix}
         </me>
         The kernel of the linear transformation associated to <m>[\sigma]_{\mathfrak{B}}-I_4</m> (resp., <m>[\tau]_{\mathfrak{B}}-I_4</m>) has dimension <m>2</m> (resp., <m>1</m>). Therefore, <m>K^{\Aut{K}{F}}=F</m>.

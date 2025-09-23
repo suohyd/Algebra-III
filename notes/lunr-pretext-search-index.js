@@ -503,6 +503,15 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": " By using the fundamental theorem of Galois theory, the subfields of corresponds precisely to the fixed fields of subgroups of . Note that following are all the subgroups of .   We calculate the fixed of of . It is enough to find such that , i.e., . We first find the matrix of with respect to a basis . We get the following using . The rank of the matrix is , and hence the nullity is . Note that is a basis of its kernel. In particular, and hence, . Furthermore, is the normal subgroup of . The fundamental theorem of Galois theory asserts that is Galois. Indeed, is the splitting field of an irreducible separable polynomial over .  The matrix with respect to is where, and are zero matrix and the identity matrix, respectively. The kernel of the associated linear transformation has dimension and may be considered as a basis. Thus, we get that . Note that .  Now we can find . For any we must have . Therefore, there exists some and such that Since are linearly independent over we must have . Thus, . In particular, .  The matrix of with respect to is The rank of the above matrix is . Hence, the kernel of the linear transformation associated with the above matrix has dimension . One may take as a basis of the kernel. We thus have . As , so is . Furthermore, , and hence, . Therefore, .  The matrix The matrix with respect to is The rank of the above matrix is . Hence, the kernel of the linear transformation associated with the above matrix has dimension . One may take as a basis of the kernel. We thus have . Note that . Thus, . Furthermore, , and hence, . Therefore, .  "
+},
+{
+  "id": "sec-Galois-subfield-of-rational-fn-field",
+  "level": "1",
+  "url": "sec-Galois-subfield-of-rational-fn-field.html",
+  "type": "Section",
+  "number": "",
+  "title": "A Galois subfield of the rational functional field",
+  "body": " A Galois subfield of the rational functional field   We consider another example of a Galois extension of fields. Let the rational function field over and let . We show that is a Galois field extension with Galois group isomorphic to the Klein four-group .   First note that and are coprime polynomials in . Thus, by Exercise 7 , we have the following.   The polynomial is irreducible , and is a root of . Therefore, is the minimal polynomial of over .    The degree of the field extension and .   We have the following four distinct -automorphisms of . The order of and is . Furthermore, we also have (see Corollary 10, Chapter 14, Dummit & Foote). Hence, and hence, is Galois. This shows that . We now verify this directly.  We take as an -basis of . For brevity we put . We use the relation to compute the matrix representations of the automorphisms with respect to the basis . The kernel of the linear transformation associated to (resp., ) has dimension (resp., ). Therefore, .  "
 }
 ]
 

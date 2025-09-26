@@ -51,7 +51,7 @@
                 1 \amp 0 \amp t \amp 0 \\
                 0 \amp -t \amp 0 \amp 1-t^2 \\
                 0 \amp 0 \amp -1 \amp 0 \\
-                0 \amp -1 \amp 0 \amp -t  
+                0 \amp 1 \amp 0 \amp t  
             \end{pmatrix}
         </me>
         The kernel of the linear transformation associated to <m>[\sigma]_{\mathfrak{B}}-I_4</m> (resp., <m>[\tau]_{\mathfrak{B}}-I_4</m>) has <m>\{1,x^2\}</m> (resp., <m>\{1,(1+t)x-x^3\}</m>) as an <m>F</m>-basis. Therefore, <m>K^{\Aut{K}{F}}=F</m>.

@@ -14,7 +14,7 @@
         <ol>
             <li>
                 <p>
-                    The polynomial <m>f(s)=\left(s^4+1\right)-\tfrac{x^4+1}{x^2}s^2\in F[s]</m> is irreducible <m>F</m>, and <m>x\in\R(x)</m> is a root of <m>f(s)</m>. Therefore, <m>f(s)</m> is the minimal polynomial of <m>x</m> over <m>F</m>.
+                    The polynomial <m>f(s)=\left(s^4+1\right)-\tfrac{x^4+1}{x^2}s^2\in F[s]</m> is irreducible over <m>F</m>, and <m>x\in\R(x)</m> is a root of <m>f(s)</m>. Therefore, <m>f(s)</m> is the minimal polynomial of <m>x</m> over <m>F</m>.
                 </p>
             </li>
             <li>

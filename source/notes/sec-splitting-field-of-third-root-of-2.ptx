@@ -3,7 +3,7 @@
 <pretext>
     <article xml:id="notes">
         <section xml:id="sec-splitting-field-of-third-root-of-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>The splitting field of a third root of <m>2</m> over <m>\Q</m></title>
+    <title>The splitting field of <m>x^3-2</m> over <m>\Q</m></title>
     <introduction>
         <p>
             We consider the following example as an illustration to the <sq>Fundamental Theorem of Galois Theory</sq>.

@@ -413,6 +413,60 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  Let be a field extension and an isomorphism of fields. Let . Show that the map defined by is a group isomorphism.   "
+},
+{
+  "id": "activity-tutorial-8",
+  "level": "1",
+  "url": "activity-tutorial-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Tutorial-8",
+  "body": " Tutorial-8   Following exercises are taken from Section 14.2 of the book Abstract Algebra by Dummit and Foote.     Determine the minimal polynomial over for the following elements.       Determine the Galois group of over .Furthermore, determine all the subfields of the splitting field of this polynomial.      Let be a prime number. Determine the Galois group of over and over . Show that the Galois group over is isomorphic to       Let and let , , . Show that       Determine all subfields of the splitting field of which are Galois over .    "
+},
+{
+  "id": "activity-tutorial-8-3",
+  "level": "2",
+  "url": "activity-tutorial-8.html#activity-tutorial-8-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Determine the minimal polynomial over for the following elements.    "
+},
+{
+  "id": "activity-tutorial-8-4",
+  "level": "2",
+  "url": "activity-tutorial-8.html#activity-tutorial-8-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Determine the Galois group of over .Furthermore, determine all the subfields of the splitting field of this polynomial.   "
+},
+{
+  "id": "activity-tutorial-8-5",
+  "level": "2",
+  "url": "activity-tutorial-8.html#activity-tutorial-8-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let be a prime number. Determine the Galois group of over and over . Show that the Galois group over is isomorphic to    "
+},
+{
+  "id": "activity-tutorial-8-6",
+  "level": "2",
+  "url": "activity-tutorial-8.html#activity-tutorial-8-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Let and let , , . Show that    "
+},
+{
+  "id": "activity-tutorial-8-7",
+  "level": "2",
+  "url": "activity-tutorial-8.html#activity-tutorial-8-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Determine all subfields of the splitting field of which are Galois over .   "
 }
 ]
 

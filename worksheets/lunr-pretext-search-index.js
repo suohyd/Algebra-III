@@ -467,6 +467,60 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "  Determine all subfields of the splitting field of which are Galois over .   "
+},
+{
+  "id": "activity-tutorial-9",
+  "level": "1",
+  "url": "activity-tutorial-9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Tutorial-9",
+  "body": " Tutorial-9   Following exercises are taken from Section 14.2 of the book Abstract Algebra by Dummit and Foote.     Suppose that is a Galois extension of degree for some prime number and a natural number . Show that there are Galois extensions of contained in of degrees and .      Give an example of fields with and and each field is Galois over all its subfields with the exception that is not Galois.      Determine the Galois group of the splitting field of over .      Show that is Galois with a cyclic Galois group.         Show that the polynomial is irreducible over .    Show that following are roots of .     Let for and . Show that and that .    Show that are Galois for . Determine and all the subfields of explicitly.    Prove that the splitting field of over is of degree and its Galois group is isomorphic to a dihedral group.       "
+},
+{
+  "id": "activity-tutorial-9-3",
+  "level": "2",
+  "url": "activity-tutorial-9.html#activity-tutorial-9-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Suppose that is a Galois extension of degree for some prime number and a natural number . Show that there are Galois extensions of contained in of degrees and .   "
+},
+{
+  "id": "activity-tutorial-9-4",
+  "level": "2",
+  "url": "activity-tutorial-9.html#activity-tutorial-9-4",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Give an example of fields with and and each field is Galois over all its subfields with the exception that is not Galois.   "
+},
+{
+  "id": "activity-tutorial-9-5",
+  "level": "2",
+  "url": "activity-tutorial-9.html#activity-tutorial-9-5",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Determine the Galois group of the splitting field of over .   "
+},
+{
+  "id": "activity-tutorial-9-6",
+  "level": "2",
+  "url": "activity-tutorial-9.html#activity-tutorial-9-6",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Show that is Galois with a cyclic Galois group.   "
+},
+{
+  "id": "activity-tutorial-9-7",
+  "level": "2",
+  "url": "activity-tutorial-9.html#activity-tutorial-9-7",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "     Show that the polynomial is irreducible over .    Show that following are roots of .     Let for and . Show that and that .    Show that are Galois for . Determine and all the subfields of explicitly.    Prove that the splitting field of over is of degree and its Galois group is isomorphic to a dihedral group.      "
 }
 ]
 

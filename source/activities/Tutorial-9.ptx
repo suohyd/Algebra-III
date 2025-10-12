@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-9">
+  <title>Tutorial-9</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Section 14.2 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+  <exercise>
+    <statement>
+        <p>
+            Suppose that <m>K/F</m> is a Galois extension of degree <m>p^n</m> for some prime number <m>p</m> and a natural number <m>n</m>. Show that there are Galois extensions of <m>F</m> contained in <m>K</m> of degrees <m>p</m> and <m>p^{n-1}</m>.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            Give an example of fields <m>F_1,F_2,F_3</m> with <m>\Q\subset F_1\subset F_2\subset F_3</m> and <m>[F_3:\Q]=8</m> and each field is Galois over all its subfields with the exception that <m>F_2/\Q</m> is not Galois.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            Determine the Galois group of the splitting field of <m>x^4-14x^2+9</m> over <m>\Q</m>.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            Show that <m>\Q\left(\sqrt{2+\sqrt{2}}\right)/\Q</m> is Galois with a cyclic Galois group.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            <ol>
+                <li>
+                    <p>
+                        Show that the polynomial <m>p(x)=x^4-2x^2-2</m> is irreducible over <m>\Q</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Show that following are roots of <m>p(x)</m>.
+                        <md>
+                          <mrow>\alpha_1=\sqrt{1+\sqrt{3}} \amp\qquad\alpha_2=-\sqrt{1+\sqrt{3}} </mrow>
+                          <mrow>\alpha_3=\sqrt{1-\sqrt{3}} \amp\qquad\alpha_4=-\sqrt{1-\sqrt{3}} </mrow>
+                        </md>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Let <m>K_i=\Q(\alpha_i)</m> for <m>i=1,2</m> and <m>F=K_1\cap K_2</m>. Show that <m>K_1\neq K_2</m> and that <m>F=\Q(\sqrt{3})</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Show that <m>K_i/F</m> are Galois for <m>i=1,2</m>. Determine <m>\Gal{K_1K_2}{F}</m> and all the subfields of <m>K_1K_2/F</m> explicitly.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Prove that the splitting field of <m>p(x)</m> over <m>\Q</m> is of degree <m>8</m> and its Galois group is isomorphic to a dihedral group.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </exercise>
+</worksheet>

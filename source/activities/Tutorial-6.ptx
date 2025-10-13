@@ -42,7 +42,7 @@
     <exercise>
         <statement>
             <p>
-                Show that for a natural number <m>n&gt;1</m>, show that <m>\Phi_{2n}(x)=\Phi(-x)</m>.
+                Show that for an odd natural number <m>n&gt;1</m>, show that <m>\Phi_{2n}(x)=\Phi(-x)</m>.
             </p>
         </statement>
     </exercise>

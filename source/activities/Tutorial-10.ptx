@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-10">
+  <title>Tutorial-10</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Section 14.3 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+</worksheet>

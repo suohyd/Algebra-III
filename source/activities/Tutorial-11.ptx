@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Contributed by Mitch Keller -->
+<worksheet xml:id="activity-tutorial-11">
+  <title>Tutorial-11</title>
+  <introduction>
+                <p>
+                    Following exercises are taken from Section 14.4 of the book <em>Abstract Algebra</em> by Dummit and Foote.
+                </p>
+  </introduction>
+  <exercise>
+    <statement>
+        <p>
+            Determine the Galois closure of <m>\Q\left(\sqrt{1+\sqrt{2}}\right)</m> over <m>\Q</m>.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            Find a primitive generator for <m>\Q\left(\sqrt{2},\sqrt{3},\sqrt{5}\right)/\Q</m>.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            Let <m>F</m> be a field contained in <m>M_n(\Q)</m>. Show that <m>[F:\Q]\leq n</m>.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            For any Galois extension <m>K/F</m>, show that the irreducible polynomial <m>f(x)\in F[x]</m> factors in <m>K[x]</m>.
+        </p>
+    </statement>
+  </exercise>
+  <exercise>
+    <statement>
+        <p>
+            Let <m>p</m> be a prime number and <m>F</m> a field. Let <m>K/F</m> be a Galois extension whose Galois group is a <m>p</m>-group.
+            <ol>
+                <li>
+                    <p>
+                        Let <m>L/K</m> be a <m>p</m>-extension. Show that the Galois closure of <m>L/F</m> is a <m>p</m>-extension of <m>F</m>.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Give an example to show that the above result need not be true if <m>K/F</m> is not Galois even if <m>[K:F]</m> is a power of <m>p</m>.
+                    </p>
+                </li>
+            </ol>
+        </p>
+    </statement>
+  </exercise>
+</worksheet>

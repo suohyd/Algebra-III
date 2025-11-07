@@ -610,7 +610,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Tutorial-11",
-  "body": " Tutorial-11   Following exercises are taken from Section 14.4 of the book Abstract Algebra by Dummit and Foote.     Determine the Galois closure of over .      Find a primitive generator for .      Let be a field contained in . Show that .      For any Galois extension , show that the irreducible polynomial factors in .      Let be a prime number and a field. Let be a Galois extension whose Galois group is a -group.   Let be a -extension. Show that the Galois closure of is a -extension of .    Give an example to show that the above result need not be true if is not Galois even if is a power of .       "
+  "body": " Tutorial-11   Following exercises are taken from Section 14.4 of the book Abstract Algebra by Dummit and Foote.     Determine the Galois closure of over .      Find a primitive generator for .      Let be a field contained in . Show that .       Let be a prime number and a field. Let be a Galois extension whose Galois group is a -group.   Let be a -extension. Show that the Galois closure of is a -extension of .    Give an example to show that the above result need not be true if is not Galois even if is a power of .       "
 },
 {
   "id": "activity-tutorial-11-3",
@@ -645,15 +645,6 @@ var ptx_lunr_docs = [
   "url": "activity-tutorial-11.html#activity-tutorial-11-6",
   "type": "Worksheet Exercise",
   "number": "4",
-  "title": "",
-  "body": "  For any Galois extension , show that the irreducible polynomial factors in .   "
-},
-{
-  "id": "activity-tutorial-11-7",
-  "level": "2",
-  "url": "activity-tutorial-11.html#activity-tutorial-11-7",
-  "type": "Worksheet Exercise",
-  "number": "5",
   "title": "",
   "body": "  Let be a prime number and a field. Let be a Galois extension whose Galois group is a -group.   Let be a -extension. Show that the Galois closure of is a -extension of .    Give an example to show that the above result need not be true if is not Galois even if is a power of .      "
 }

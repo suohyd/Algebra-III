@@ -28,13 +28,13 @@
         </p>
     </statement>
   </exercise>
-  <exercise>
+<!--  <exercise>
     <statement>
         <p>
             For any Galois extension <m>K/F</m>, show that the irreducible polynomial <m>f(x)\in F[x]</m> factors in <m>K[x]</m>.
         </p>
     </statement>
-  </exercise>
+  </exercise>-->
   <exercise>
     <statement>
         <p>

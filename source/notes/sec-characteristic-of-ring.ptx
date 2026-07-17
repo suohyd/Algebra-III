@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <pretext>
-    <article xml:id="notes-characteristic-of-ring">
+    <article xml:id="notes">
         <section xml:id="sec-characteristic-of-ring">
         <title>Characteristic of a ring</title>
         <p>In this section we define the <em>characteristic of a ring that contains a subfield</em>.</p>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <pretext>
-    <article xml:id="notes">
+    <article xml:id="notes-characteristic-of-ring">
         <section xml:id="sec-characteristic-of-ring">
         <title>Characteristic of a ring</title>
         <p>In this section we define the <em>characteristic of a ring that contains a subfield</em>.</p>
@@ -16,9 +16,9 @@
     <statement>
         <p>
             Find the characteristic of the following fields. 
-            <me>
+            <md>
                 \Q,\R,\C,\F_p,\F_p(t),\Q(t)
-            </me>
+            </md>
             
         </p>
     </statement>
@@ -27,9 +27,9 @@
     <statement>
         <p>
             Find the characteristic of the following rings.
-            <me>
+            <md>
                 \R[x]/(x^2+1),\quad\Q[x]/(x^3-2),\quad\F_3[x]/(x^2+1)
-            </me>
+            </md>
             
         </p>
     </statement>
